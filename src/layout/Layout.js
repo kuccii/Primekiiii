@@ -11,8 +11,8 @@ const Layout = ({ children, title, desc, hasClass, classOpt }) => {
       <Head>
         <title>
           {title
-            ? `Quiety | ${title}`
-            : "Tradeln"}
+            ? `Qivah | ${title}`
+            : "Qivah"}
         </title>
         {desc && <meta name="description" content={desc} />}
         <link rel="icon" href="/favicon.png" />
