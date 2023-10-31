@@ -194,10 +194,10 @@ const Navbar = ({ navDark, insurance, classOption }) => {
           </div>
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-            <Link href="https://qivook.surge.sh/">
+            <Link href="https://qivook.vercel.app/">
               <a className="btn btn-link text-decoration-none me-2">Sign In</a>
             </Link>
-            <Link href="https://qivook.surge.sh/">
+            <Link href="https://qivook.vercel.app/auth/register">
               <a
                 className={
                   insurance ? 'ins-btn ins-primary-btn' : 'btn btn-primary'
