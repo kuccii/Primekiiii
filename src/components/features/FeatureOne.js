@@ -72,7 +72,7 @@ const FeatureOne = () => {
                   </p>
                 </div>
                 <div className="action-btns mt-auto">
-                  <Link href="/request-demo">
+                  <Link href="https://qivook.vercel.app/auth/register">
                     <a className="btn btn-outline-primary btn-sm">
                       {" "}
                       Start For Free
