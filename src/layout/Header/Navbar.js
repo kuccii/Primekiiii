@@ -197,7 +197,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             <Link href="http://qivook.adadieworld.com">
               <a className="btn btn-link text-decoration-none me-2">Sign In</a>
             </Link>
-            <Link href="https://qivook.vercel.app/auth/register">
+            <Link href="http://qivook.adadieworld.com/auth/register">
               <a
                 className={
                   insurance ? 'ins-btn ins-primary-btn' : 'btn btn-primary'
