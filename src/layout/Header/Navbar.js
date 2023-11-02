@@ -194,7 +194,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
           </div>
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-            <Link href="http://qivook.adadieworld.com">
+            <Link href="http://qivook.adadieworld.com/auth">
               <a className="btn btn-link text-decoration-none me-2">Sign In</a>
             </Link>
             <Link href="http://qivook.adadieworld.com/auth/register">
