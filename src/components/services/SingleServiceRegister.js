@@ -16,8 +16,7 @@ const SingleServiceRegister = () => {
             <div className="testimonial-tab-slider-wrap mt-5 mt-lg-0 mt-xl-0">
               <h2 className="text-white">Start with Us</h2>
               <p>
-                Whatever your goal or project size we will handel it utilize
-                standards compliant. We hope you will be 100% satisfied.
+                
               </p>
               <hr />
               <div
