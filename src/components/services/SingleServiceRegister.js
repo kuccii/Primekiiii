@@ -14,7 +14,7 @@ const SingleServiceRegister = () => {
         <div className="row align-items-center justify-content-between">
           <div className="col-xl-5 col-lg-5 col-md-12 order-1 order-lg-0">
             <div className="testimonial-tab-slider-wrap mt-5 mt-lg-0 mt-xl-0">
-              <h2 className="text-white">Start Your Project with Us</h2>
+              <h2 className="text-white">Start with Us</h2>
               <p>
                 Whatever your goal or project size we will handel it utilize
                 standards compliant. We hope you will be 100% satisfied.
@@ -50,11 +50,11 @@ const SingleServiceRegister = () => {
                 >
                   <blockquote className="blockquote">
                     <em>
-                      &quot;Synergistically evisculate market positioning
-                      technology vis-a-vis team driven innovation.
-                      Phosfluorescently morph tactical communities htmlFor
-                      superior applications. Distinctively pontificate
-                      resource-leveling infomediaries and parallel models.&quot;
+                      // &quot;Synergistically evisculate market positioning
+                      // technology vis-a-vis team driven innovation.
+                      // Phosfluorescently morph tactical communities htmlFor
+                      // superior applications. Distinctively pontificate
+                      // resource-leveling infomediaries and parallel models.&quot;
                     </em>
                   </blockquote>
                   <div className="author-info mt-3">
