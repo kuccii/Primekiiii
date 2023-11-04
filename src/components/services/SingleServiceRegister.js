@@ -35,8 +35,8 @@ const SingleServiceRegister = () => {
                     </em>
                   </blockquote>
                   <div className="author-info mt-3">
-                    <span className="h6">Veronica P. Byrd</span>
-                    <span className="d-block small">Veterinary technician</span>
+                    <span className="h6">Qivook Byrd</span>
+                    <span className="d-block small">Your trusted patner</span>
                   </div>
                 </div>
                 <div
@@ -46,11 +46,7 @@ const SingleServiceRegister = () => {
                 >
                   <blockquote className="blockquote">
                     <em>
-                      // &quot;Synergistically evisculate market positioning
-                      // technology vis-a-vis team driven innovation.
-                      // Phosfluorescently morph tactical communities htmlFor
-                      // superior applications. Distinctively pontificate
-                      // resource-leveling infomediaries and parallel models.&quot;
+                    
                     </em>
                   </blockquote>
                   <div className="author-info mt-3">
@@ -65,11 +61,7 @@ const SingleServiceRegister = () => {
                 >
                   <blockquote className="blockquote">
                     <em>
-                      &quot;Professionally myocardinate corporate e-commerce
-                      through alternative functionalities. Compellingly matrix
-                      distributed convergence with goal-oriented synergy.
-                      Professionally embrace interactive opportunities through
-                      parallel innovation.&quot;
+                      
                     </em>
                   </blockquote>
                   <div className="author-info mt-3">
