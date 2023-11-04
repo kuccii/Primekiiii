@@ -34,7 +34,7 @@ const SingleServiceRegister = () => {
                     </em>
                   </blockquote>
                   <div className="author-info mt-3">
-                    <span className="h6">Qivook Byrd</span>
+                    <span className="h6">Qivook</span>
                     <span className="d-block small">Your trusted patner</span>
                   </div>
                 </div>
