@@ -29,7 +29,7 @@ const HeroSectionOne = () => {
               Ignite your trade potential by building meaningful connections that transcend borders and redefine success.
               </p>
               <div className="action-btns mt-5 align-items-center flex d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/request-demo">
+                <Link href="https://app.qivook.com/auth/register">
                   <a className="btn btn-primary me-3">Start Today</a>
                 </Link>
                 {/* <div>
