@@ -31,11 +31,7 @@ const SingleServiceRegister = () => {
                 >
                   <blockquote className="blockquote">
                     <em>
-                      // &quot;Globally actualize economically sound alignments
-                      // before tactical systems. Rapidiously actualize processes
-                      // technically sound infomediaries. Holisticly pursue team
-                      // building catalysts htmlFor change before team driven
-                      // products.&quot;
+                      
                     </em>
                   </blockquote>
                   <div className="author-info mt-3">
