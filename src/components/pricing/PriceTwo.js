@@ -17,9 +17,7 @@ const PriceTwo = () => {
             <SectionTitle
               subtitle="Plans &amp; Pricing"
               title="Check Our Valuable Price"
-              description="Objectively market-driven intellectual capital rather than
-                  covalent best practices facilitate strategic information
-                  before innovation."
+              description="Our flexible plans and pricing are designed to accommodate various cross-border trade needs. Choose the plan that suits you best and unlock a world of accessible, efficient, and trustworthy global commerce."
               dark
               centerAlign
             />
@@ -32,11 +30,11 @@ const PriceTwo = () => {
                 <ul className="list-unstyled pricing-feature-list pricing-included-list mb-0">
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Unlimited supplier access
+                    Access to curated suppliers (20 supplier and 5 matching Deal)
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Unlimited deal
+                    Perfect for growing businesses
                   </li>
                   {/* <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
@@ -52,11 +50,11 @@ const PriceTwo = () => {
                   </li> */}
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Live chat support
+                    Compliance support
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Recent activity notification
+                    Priority customer support
                   </li>
                   {/* <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />

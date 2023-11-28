@@ -28,9 +28,9 @@ const FeatureOne = () => {
                   <RiStackLine className="text-white fa-2x" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Access to a Diverse Supplier Network</h3>
+                  <h3 className="h5">Comprehensive product search</h3>
                   <p>
-                  {" "}
+                  {" Access an extensive product database and supplier network to simplify the process of finding the right products."}
                   </p>
                 </div>
               </div>
@@ -41,9 +41,9 @@ const FeatureOne = () => {
                   <BsShieldCheck className="fa-2x text-white" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Time and cost efficiency</h3>
+                  <h3 className="h5">Supplier vetting and verification</h3>
                   <p>
-                  {" "}
+                  {" Connect with trusted, verified suppliers to ensure reliability, product quality, and delivery performance. "}
                   </p>
                 </div>
               </div>
@@ -54,9 +54,9 @@ const FeatureOne = () => {
                   <BsCodeSlash className="fa-2x text-white" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Enhanced transparency and trust</h3>
+                  <h3 className="h5">Efficient matching system</h3>
                   <p>
-                 {" "}
+                 {"Streamline the purchasing process by sending purchase requests to suppliers and obtaining quotations, while our advanced algorithms match your request with the best offers available, ensuring competitive pricing and favorable terms."}
                   </p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const FeatureOne = () => {
                   <Link href="https://app.qivook.com/auth/register">
                     <a className="btn btn-outline-primary btn-sm">
                       {" "}
-                      Start For Free
+                      Start Today
                     </a>
                   </Link>
                 </div>
@@ -101,7 +101,7 @@ const FeatureOne = () => {
                 <div className="action-btns mt-auto">
                   <Link href="https://app.qivook.com/auth/register">
                     <a className="btn btn-outline-primary btn-sm">
-                      Start For Free
+                      Start Today
                     </a>
                   </Link>
                 </div>
