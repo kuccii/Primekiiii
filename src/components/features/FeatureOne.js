@@ -15,8 +15,8 @@ const FeatureOne = () => {
             <div className="col-lg-6 col-md-10">
               <SectionTitle
                 classNam="text-center"
-                title="With all the Features You Need"
-                description="Customized to meet your specific business needs and requirements"
+                title="Our Services"
+                description="Our product is designed to provide you with the best possible experience in cross-border trade"
               />
             </div>
           </div>
