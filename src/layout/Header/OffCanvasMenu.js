@@ -48,7 +48,7 @@ const OffCanvasMenu = () => {
           </div>
         </li> */}
          <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/">
+          <Link href="/index">
             <a className="nav-link">Home</a>
           </Link>
         </li>
