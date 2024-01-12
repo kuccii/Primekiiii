@@ -20,7 +20,7 @@ const OffCanvasMenu = () => {
           >
             Home
           </a>
-          <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+          {/* <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
             <div className="dropdown-grid rounded-custom width-half">
               <div className="dropdown-grid-item">
                 <h6 className="drop-heading">Different Home</h6>
@@ -45,7 +45,7 @@ const OffCanvasMenu = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
         </li>
         <li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="/about-us">
@@ -73,7 +73,7 @@ const OffCanvasMenu = () => {
           >
             Company
           </a>
-          <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+          {/* <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
             <div className="dropdown-grid rounded-custom width-full">
               <div className="dropdown-grid-item">
                 <h6 className="drop-heading">Useful Links</h6>
@@ -114,7 +114,7 @@ const OffCanvasMenu = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
         </li>
       </ul>
       <div className="action-btns mt-4 ps-3">
