@@ -12,7 +12,7 @@ const OffCanvasMenu = () => {
       <ul className="nav col-12 col-md-auto justify-content-center main-menu">
         <li className="nav-item dropdown">
           <a
-            className="nav-link dropdown-toggle d-flex justify-content-between"
+            className="nav-link "
             href="#"
             role="button"
             data-bs-toggle="dropdown"
@@ -65,7 +65,7 @@ const OffCanvasMenu = () => {
         </li>
         <li className="nav-item dropdown">
           <a
-            className="nav-link dropdown-toggle d-flex justify-content-between"
+            className="nav-link"
             href="#"
             role="button"
             data-bs-toggle="dropdown"
