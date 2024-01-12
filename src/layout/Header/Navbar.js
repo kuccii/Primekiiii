@@ -89,7 +89,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 >
                   Home
                 </a>
-                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                {/* <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-full">
                     <div className="dropdown-grid-item">
                       <h6 className="drop-heading">Different Home</h6>
@@ -128,7 +128,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       ))}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </li>
               <li>
                 <Link href="about-us">
