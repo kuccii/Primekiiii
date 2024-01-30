@@ -10,9 +10,9 @@ const OffCanvasMenu = () => {
   return (
     <div className="offcanvas-body">
       <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-        <li className="nav-item dropdown">
+        {/* <li className="nav-item dropdown">
           <a
-            className="nav-link dropdown-toggle d-flex justify-content-between"
+            className="nav-link "
             href="#"
             role="button"
             data-bs-toggle="dropdown"
@@ -46,6 +46,11 @@ const OffCanvasMenu = () => {
               </div>
             </div>
           </div>
+        </li> */}
+         <li data-bs-dismiss="offcanvas" aria-label="Close">
+          <Link href="https://www.qivook.com/">
+            <a className="nav-link">Home</a>
+          </Link>
         </li>
         <li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="/about-us">
@@ -63,9 +68,13 @@ const OffCanvasMenu = () => {
             <a className="nav-link">Pricing</a>
           </Link>
         </li>
-        <li className="nav-item dropdown">
+        <li data-bs-dismiss="offcanvas" aria-label="Close">
+          <Link href="#">
+            <a className="nav-link">Company</a>
+          </Link>
+        {/* <li className="nav-item dropdown">
           <a
-            className="nav-link dropdown-toggle d-flex justify-content-between"
+            className="nav-link"
             href="#"
             role="button"
             data-bs-toggle="dropdown"
@@ -115,7 +124,7 @@ const OffCanvasMenu = () => {
               </div>
             </div>
           </div>
-        </li>
+        </li> */}
       </ul>
       <div className="action-btns mt-4 ps-3">
         <span data-bs-dismiss="offcanvas" aria-label="Close">

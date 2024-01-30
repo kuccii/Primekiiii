@@ -80,7 +80,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
           <div className="clearfix"></div>
           <div className="collapse navbar-collapse justify-content-center">
             <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-              <li className>
+            {/*<li className>
                 <a
                   className="nav-link "
                   href="#"
@@ -89,7 +89,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 >
                   Home
                 </a>
-                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-full">
                     <div className="dropdown-grid-item">
                       <h6 className="drop-heading">Different Home</h6>
@@ -128,7 +128,12 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       ))}
                     </div>
                   </div>
-                </div>
+                </div> 
+              </li>*/}
+              <li>
+                <Link href="/">
+                  <a className="nav-link">Home</a>
+                </Link>
               </li>
               <li>
                 <Link href="about-us">
@@ -146,7 +151,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a className="nav-link">Pricing</a>
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              {/*<li className="nav-item dropdown">
                 <a
                   className="nav-link"
                   href="#"
@@ -155,7 +160,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 >
                   Company
                 </a>
-                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-full">
                     <div className="dropdown-grid-item">
                       <h6 className="drop-heading">Useful Links</h6>
@@ -188,8 +193,8 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                       ))}
                     </div>
                   </div>
-                </div>
-              </li>
+                </div> 
+              </li>*/}
             </ul>
           </div>
 
