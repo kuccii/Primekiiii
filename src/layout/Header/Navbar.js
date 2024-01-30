@@ -49,7 +49,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Image
                   width={113}
                   height={45}
-                  src="/logo.png"
+                  src="/logo1.png"
                   alt="logo"
                   className="img-fluid logo-color"
                 />
@@ -57,7 +57,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Image
                   width={113}
                   height={45}
-                  src="logo1.png"
+                  src="logo.png"
                   alt="logo"
                   className="img-fluid logo-white"
                 />
