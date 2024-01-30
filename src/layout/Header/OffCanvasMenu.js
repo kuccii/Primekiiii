@@ -48,7 +48,7 @@ const OffCanvasMenu = () => {
           </div>
         </li> */}
          <li data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="https://www.qivook.com/">
+          <Link href="/">
             <a className="nav-link">Home</a>
           </Link>
         </li>
@@ -68,11 +68,11 @@ const OffCanvasMenu = () => {
             <a className="nav-link">Pricing</a>
           </Link>
         </li>
-        <li data-bs-dismiss="offcanvas" aria-label="Close">
+        {/*<li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="#">
             <a className="nav-link">Company</a>
           </Link>
-        {/* <li className="nav-item dropdown">
+         <li className="nav-item dropdown">
           <a
             className="nav-link"
             href="#"
