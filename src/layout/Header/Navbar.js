@@ -57,7 +57,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Image
                   width={113}
                   height={45}
-                  src="logo.png"
+                  src="logo1.png"
                   alt="logo"
                   className="img-fluid logo-white"
                 />
@@ -199,10 +199,10 @@ const Navbar = ({ navDark, insurance, classOption }) => {
           </div>
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-            <Link href="https://app.qivook.com/auth/login">
+            <Link href="https://afycentral.com/login">
               <a className="btn btn-link text-decoration-none me-2">Sign In</a>
             </Link>
-            <Link href="https://app.qivook.com/auth/register">
+            <Link href="https://afyacentral.com/login">
               <a
                 className={
                   insurance ? 'ins-btn ins-primary-btn' : 'btn btn-primary'
