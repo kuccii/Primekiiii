@@ -47,7 +47,7 @@ const OffCanvasMenu = () => {
             </div>
           </div>
         </li> */}
-         <li data-bs-dismiss="offcanvas" aria-label="Close">
+        <li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="/">
             <a className="nav-link">Home</a>
           </Link>
@@ -62,7 +62,6 @@ const OffCanvasMenu = () => {
             <a className="nav-link">Services</a>
           </Link>
         </li>
-
         <li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="/pricing">
             <a className="nav-link">Pricing</a>
@@ -72,6 +71,7 @@ const OffCanvasMenu = () => {
           <Link href="#">
             <a className="nav-link">Company</a>
           </Link>
+        </li>
          <li className="nav-item dropdown">
           <a
             className="nav-link"
@@ -134,7 +134,7 @@ const OffCanvasMenu = () => {
             </a>
           </Link>
         </span>
-        <span data-bs-dismiss="offcanvas" aria-label="Close">
+       <span data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="/request-demo">
             <a className="btn btn-primary">Get Started</a>
           </Link>
