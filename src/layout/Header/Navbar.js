@@ -202,7 +202,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             <Link href="https://afyacentral.com/users/login">
               <a className="btn btn-link text-decoration-none me-2">Sign In</a>
             </Link>
-            <Link href="https://afyacentral.com/users/login">
+            <Link href="https://afyacentral.com/">
               <a
                 className={
                   insurance ? 'ins-btn ins-primary-btn' : 'btn btn-primary'
