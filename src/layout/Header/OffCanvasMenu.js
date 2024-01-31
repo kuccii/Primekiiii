@@ -10,43 +10,6 @@ const OffCanvasMenu = () => {
   return (
     <div className="offcanvas-body">
       <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-        {/* <li className="nav-item dropdown">
-          <a
-            className="nav-link "
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Home
-          </a>
-          <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-            <div className="dropdown-grid rounded-custom width-half">
-              <div className="dropdown-grid-item">
-                <h6 className="drop-heading">Different Home</h6>
-                {offcanvasMenuData.map((navH, i) => (
-                  <span key={i + 1}>
-                    <Link href={navH.href}>
-                      <a
-                        className="dropdown-link"
-                        data-bs-dismiss="offcanvas"
-                        aria-label="Close"
-                      >
-                        <span className="demo-list bg-primary rounded text-white fw-bold">
-                          {i + 1}
-                        </span>
-                        <span className="dropdown-info mb-0">
-                          <span className="drop-title">{navH.title}</span>
-                          <span>{navH.info}</span>
-                        </span>
-                      </a>
-                    </Link>
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </li> */}
         <li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="/">
             <a className="nav-link">Home</a>
@@ -74,13 +37,13 @@ const OffCanvasMenu = () => {
         </li> */}
       </ul>
       <div className="action-btns mt-4 ps-3">
-        <span data-bs-dismiss="offcanvas" aria-label="Close">
-          {/* <Link href="/login">
+        {/* <span data-bs-dismiss="offcanvas" aria-label="Close">
+          <Link href="/login">
             <a className="btn btn-outline-primary text-decoration-none me-2">
               Sign In
             </a>
-          </Link> */}
-        </span>
+          </Link>
+        </span> */}
         <span data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="https://afyacentral.com">
             <a className="btn btn-primary">Marketplace</a>
