@@ -75,15 +75,15 @@ const OffCanvasMenu = () => {
       </ul>
       <div className="action-btns mt-4 ps-3">
         <span data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/login">
+          {/* <Link href="/login">
             <a className="btn btn-outline-primary text-decoration-none me-2">
               Sign In
             </a>
-          </Link>
+          </Link> */}
         </span>
         <span data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="/request-demo">
-            <a className="btn btn-primary">Get Started</a>
+          <Link href="https://afyacentral.com">
+            <a className="btn btn-primary">Marketplace</a>
           </Link>
         </span>
       </div>
