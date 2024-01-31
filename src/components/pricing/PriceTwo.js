@@ -140,7 +140,7 @@ const PriceTwo = () => {
                         $250 <span>/Year</span>
                       </h4>
                     </div>
-                    <Link href="https://app.qivook.com/auth/register">
+                    <Link href="https://afyacentral.com">
                       <a className="btn btn-primary mt-3">
                         Start your free Trial
                       </a>

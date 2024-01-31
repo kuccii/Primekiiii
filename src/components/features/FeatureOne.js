@@ -72,7 +72,7 @@ const FeatureOne = () => {
                   </p>
                 </div>
                 <div className="action-btns mt-auto">
-                  <Link href="https://app.qivook.com/auth/register">
+                  <Link href="https://afyacentral.com">
                     <a className="btn btn-outline-primary btn-sm">
                       {" "}
                       Start Today
@@ -99,7 +99,7 @@ const FeatureOne = () => {
                   </p>
                 </div>
                 <div className="action-btns mt-auto">
-                  <Link href="https://app.qivook.com/auth/register">
+                  <Link href="https://afyacentral.com">
                     <a className="btn btn-outline-primary btn-sm">
                       Start Today
                     </a>
