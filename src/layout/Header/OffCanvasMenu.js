@@ -45,7 +45,7 @@ const OffCanvasMenu = () => {
           </Link>
         </span> */}
         <span data-bs-dismiss="offcanvas" aria-label="Close">
-          <Link href="https://afyacentral.com">
+          <Link href="https://app.qivook.com">
             <a className="btn btn-primary">Marketplace</a>
           </Link>
         </span>
