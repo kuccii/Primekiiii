@@ -22,13 +22,13 @@ const MarketingBusiness = () => {
           <div className="col-xl-5">
             <div className="mk-business-content">
               <h3 className="mk-heading mb-3">
-                Actionable Reports to Grow
-                <br className="d-none d-sm-block" /> Your Business
+                Why Qivook
+                <br className="d-none d-sm-block" /> in Your Business
               </h3>
               <p className="mb-30">
-                Use marketing automation to identify hot leads and email your
+                {/* Use marketing automation to identify hot leads and email your
                 sales Nurture and contact leads at the opportune time to
-                maximize.
+                maximize. */}
               </p>
               <ul className="mk-business-reports p-0">
                 <li className="d-flex align-items-start mk-bg-secondary">
@@ -43,15 +43,14 @@ const MarketingBusiness = () => {
                       <path d="M16 0V8H24L16 0Z" fill="#FF724B" />
                       <path
                         d="M16 10C14.898 10 14 9.102 14 8V0H2C0.898 0 0 0.898 0 2V30C0 31.104 0.898 32 2 32H22C23.104 32 24 31.104 24 30V10H16ZM8 28H4V22H8V28ZM14 28H10V18H14V28ZM20 28H16V14H20V28Z"
-                        fill="#FF724B"
+                        fill="#175cff"
                       />
                     </svg>
                   </span>
                   <div className="ms-4">
-                    <h6 className="mk-heading mb-2">Daily Reporters</h6>
+                    <h6 className="mk-heading mb-2">access to vetted suppliers</h6>
                     <p className="mb-0">
-                      Use marketing automation to identify hot leads leads at
-                      the opportune time to maximize.
+                     get vetted suppliers
                     </p>
                   </div>
                 </li>
@@ -71,10 +70,9 @@ const MarketingBusiness = () => {
                     </svg>
                   </span>
                   <div className="ms-4">
-                    <h6 className="mk-heading mb-2">Daily Reporters</h6>
+                    <h6 className="mk-heading mb-2">competitive insights</h6>
                     <p className="mb-0">
-                      Use marketing automation to identify hot leads leads at
-                      the opportune time to maximize.
+                      access to trend and market insights
                     </p>
                   </div>
                 </li>

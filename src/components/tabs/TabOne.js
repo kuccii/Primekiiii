@@ -7,16 +7,14 @@ import SectionTitle from '../common/SectionTitle';
 
 const TabOne = () => {
   return (
-    <section className="feature-tab-section ptb-120 bg-light">
+    <section className="feature-tab-section ptb-120 bg-white">
       <div className="container">
         <div className="row justify-content-center align-content-center">
           <div className="col-md-10 col-lg-6">
             <SectionTitle
-              subtitle="Features"
-              title="Powerful Advanced Features"
-              description="Dynamically initiate market positioning total linkage with
-                  clicks-and-mortar technology progressively procrastinate
-                  compelling."
+              subtitle="Your Trade Partner"
+              title="About Qivook"
+              description=""
               centerAlign
             />
           </div>
@@ -38,7 +36,7 @@ const TabOne = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    AI & Data Science
+                    Who we Are
                   </a>
                 </Link>
               </li>
@@ -52,7 +50,7 @@ const TabOne = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Automation Power
+                    Our Values
                   </a>
                 </Link>
               </li>
@@ -66,7 +64,7 @@ const TabOne = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Advanced Technology
+                    Our Mission
                   </a>
                 </Link>
               </li>
@@ -80,18 +78,15 @@ const TabOne = () => {
                 <div className="row justify-content-center align-items-center justify-content-around">
                   <div className="col-lg-5">
                     <div className="feature-tab-info">
-                      <h3>AI & Data Science</h3>
+                      <h3>Who we are</h3>
                       <p>
-                        Continually network effective bandwidth whereas
-                        goal-oriented schemas. Intrinsicly incentivize corporate
-                        synergy with accurate task bricks-and-clicks leadership
-                        skills .{' '}
+                      Qivook stands out as a transformative force in cross-border trade in Africa, dedicated to leveraging
+                technology and rich information to spur change and growth{' '}
                       </p>
                       <p>
-                        Conveniently develop innovative infomediaries for
-                        enabled functionalities. Dynamically coordinate
-                        leading-edge after virtual potentialities drive
-                        multidisciplinary infrastructures.
+                      Our Platform goes beyond transactional efficiency; it's a hub for empowering businesses with reliable supplier networks, up to date
+                information inlcuding a monthly e-magazine on market trends, and streamlined trade processes.
+              
                       </p>
                       <Link href="/about-us">
                         <a className="read-more-link text-decoration-none mt-4 d-block">
@@ -105,7 +100,7 @@ const TabOne = () => {
                   </div>
                   <div className="col-lg-5">
                     <img
-                      src="/screen/widget-12.png"
+                      src="/about.gif"
                       alt="feature tab"
                       className="img-fluid mt-4 mt-lg-0 mt-xl-0"
                     />
@@ -116,26 +111,20 @@ const TabOne = () => {
                 <div className="row justify-content-center align-items-center justify-content-around">
                   <div className="col-lg-5">
                     <img
-                      src="/screen/widget-8.png"
+                      src="/values.gif"
                       alt="feature tab"
                       className="img-fluid mb-4 mb-lg-0 mb-xl-0"
                     />
                   </div>
                   <div className="col-lg-5">
                     <div className="feature-tab-info">
-                      <h3>Automation Power</h3>
+                      <h3>Our Values</h3>
                       <p>
-                        Conveniently develop innovative infomediaries for
-                        enabled functionalities. Dynamically coordinate
-                        leading-edge corporate synergy after virtual
-                        potentialities.
+                      By aligning with the African Continental Free Trade Area (AfCFTA), 
+                      Qivook actively promotes smoother trade flows and bolsters intra-African trade, 
+                      marking our contribution towards a unified African market.
                       </p>
-                      <p>
-                        Continually network effective bandwidth whereas
-                        goal-oriented schemas. Intrinsicly with accurate
-                        meta-services. Rapidiously parallel task
-                        bricks-and-clicks leadership skills with revolutionary.{' '}
-                      </p>
+            
                       <Link href="/about-us">
                         <a className="read-more-link text-decoration-none mt-4 d-block">
                           Know More About Us
@@ -152,19 +141,15 @@ const TabOne = () => {
                 <div className="row justify-content-center align-items-center justify-content-around">
                   <div className="col-lg-5">
                     <div className="feature-tab-info">
-                      <h3>Advanced Technology</h3>
+                      <h3>Our Mission</h3>
                       <p>
-                        Intrinsicly incentivize corporate synergy with accurate
-                        meta-services. Rapidiously parallel task
-                        bricks-and-clicks. Leadership skills with revolutionary
-                        convergence conveniently develop.
+                      Our mission at Qivook is not just to facilitate transactions, 
+                      but to empower traders with a comprehensive suite of tools, resources, 
+                      and insightful knowledge. We aim to unlock new possibilities for traders 
+                      across the continent, making Qivook the cornerstone of a more connected, informed, 
+                      and prosperous trading ecosystem in Africa.
                       </p>
-                      <p>
-                        Continually expedite business systems without premier
-                        testing procedures architect principle-centered
-                        e-tailers for progressive maintain open-source
-                        solutions.{' '}
-                      </p>
+                     
                       <Link href="/about-us">
                         <a className="read-more-link text-decoration-none mt-4 d-block">
                           Know More About Us
@@ -177,7 +162,7 @@ const TabOne = () => {
                   </div>
                   <div className="col-lg-5">
                     <img
-                      src="/screen/widget-11.png"
+                      src="/values.gif"
                       alt="feature tab"
                       className="img-fluid mt-4 mt-lg-0 mt-xl-0"
                     />

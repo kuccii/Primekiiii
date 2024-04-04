@@ -80,12 +80,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
           <div className="clearfix"></div>
           <div className="collapse navbar-collapse justify-content-center">
             <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-            {/*<li className>
+            {/* <li className>
                 <a
-                  className="nav-link "
-                  href="#"
-                  role="button"
-                  
+                 className="nav-link dropdown-toggle"
+                 href="#"
+                 role="button"
+                 data-bs-toggle="dropdown"
+                 aria-expanded="true"
                 >
                   Home
                 </a>
@@ -129,7 +130,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     </div>
                   </div>
                 </div> 
-              </li>*/}
+              </li> */}
               <li>
                 <Link href="/">
                   <a className="nav-link">Home</a>

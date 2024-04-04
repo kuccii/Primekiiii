@@ -12,11 +12,9 @@ const FeatureFour = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-12">
               <SectionTitle
-                subtitle="Build Quality"
-                title="Our Special Features"
-                description="Authoritatively underwhelm excellent methodologies via premium
-                  expertise competitive than open-source imperatives
-                  disseminate."
+                subtitle="Our promise"
+                title="Our Value"
+                description="Your Peace of mind"
                 centerAlign
               />
             </div>
@@ -30,11 +28,9 @@ const FeatureFour = () => {
                       <FaShieldAlt />
                     </i>
                   </div>
-                  <h3 className="h5">Quality First</h3>
+                  <h3 className="h5">Trust</h3>
                   <p className="mb-0">
-                    Professionally integrate high standards applications before
-                    user friendly leadership skills.
-                  </p>
+                  Building bridges through reliability.                  </p>
                 </div>
 
                 <div className="dot-shape-bg position-absolute z--1 left--40 top--40">
@@ -50,10 +46,9 @@ const FeatureFour = () => {
                       <FaViber />
                     </i>
                   </div>
-                  <h3 className="h5">Communication</h3>
+                  <h3 className="h5">Reliability</h3>
                   <p className="mb-0">
-                    Professionally integrate high standards applications before
-                    user friendly leadership skills.
+                  Delivering excellence consistently, every time.
                   </p>
                 </div>
               </div>
@@ -66,10 +61,9 @@ const FeatureFour = () => {
                       <FaGrinStars />
                     </i>
                   </div>
-                  <h3 className="h5">Reliability</h3>
+                  <h3 className="h5">Transparency</h3>
                   <p className="mb-0">
-                    Professionally integrate high standards applications before
-                    user friendly leadership skills.
+                  Our commitment to open communication and honesty.
                   </p>
                 </div>
 

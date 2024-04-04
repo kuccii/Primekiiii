@@ -24,17 +24,16 @@ const HeroSeventeen = () => {
           <div className="col-xl-7">
             <div className="mk-title">
               <h1 className="display-4 fw-bold mk-title text-white">
-                Make Digital{' '}
-                <mark className="bg-transparent p-0">Business</mark> Very Easy
-                way!
+                A movement towards{' '}
+                <mark className="bg-transparent p-0 text-black
+              ">Transparent</mark> Trading environment
               </h1>
             </div>
           </div>
           <div className="col-xl-5">
             <div className="mk-hero-content">
               <p className="mb-4 text-white">
-                Make your work easier with an integrated ecosystem that lets all
-                departments work properly together.
+                Make your work easier with an integrated trade ecosystem 
               </p>
               <div className="d-flex align-items-center mk-btn-group flex-wrap">
                 <Link href="#">

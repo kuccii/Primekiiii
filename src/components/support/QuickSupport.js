@@ -36,7 +36,7 @@ const QuickSupport = () => {
                     <span className="far me-2">
                       <FaPhoneAlt className="mb-1" />
                     </span>{" "}
-                    (415)231-59687
+                    254 717 749 710
                   </a>
                 </div>
               </div>

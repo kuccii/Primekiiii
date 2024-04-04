@@ -22,18 +22,17 @@ export default function HeroThirteen() {
           <div className="col-lg-5 col-md-10">
             <div className="payment-gateway-text">
               <h1 className="display-5 text-white fw-bold mb-3">
-                The Easiest Way to Manage Personal With
-                <span className="gr-text fw-bold">Fintech</span>
+                Enabling Trade, One connection at a time.
+                {/* <span className="gr-text fw-bold">Fintech</span> */}
               </h1>
               <p className="text-white m-0">
-                Access your account via your mobile phone View balance, transfer
-                funds, view transactions wherever happy clients all around.
+                Welcome to Qivook - Your OneStop Solution for cross-border Trade
               </p>
               <div className="action-btns mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
                 <Link href="/request-demo">
-                  <a className="btn-gradient-sqr ">Download Now</a>
+                  <a className="btn-gradient-sqr ">Connect with us</a>
                 </Link>
-                <div className="ms-2">
+                {/* <div className="ms-2">
                   <Link href="/#">
                     <a
                       onClick={() => setOpen(true)}
@@ -43,7 +42,7 @@ export default function HeroThirteen() {
                       <IoPlayCircleOutline className="me-2" /> Watch Video
                     </a>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

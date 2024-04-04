@@ -23,7 +23,7 @@ const InsuranceGallery = () => {
           <div className="col-xl-6">
             <div className="ins-title">
               <div className="d-flex align-items-center">
-                <span className="subtitle fw-bold me-1">Insurance Gallery</span>
+                <span className="subtitle fw-bold me-1">Our Marketplace</span>
                 <span>
                   <svg
                     width="56"
@@ -34,33 +34,30 @@ const InsuranceGallery = () => {
                   >
                     <path
                       d="M0.262474 6.51123L49.0564 6.51123"
-                      stroke="#0EE7C5"
+                      stroke="black"
                       strokeWidth="1.49369"
                     />
                     <path
                       d="M55.0297 6.51187L46.0675 11.6862L46.0675 1.33758L55.0297 6.51187Z"
-                      fill="#0EE7C5"
+                      fill="black"
                     />
                   </svg>
                 </span>
               </div>
               <h2 className="mt-2 ins-heading mb-0">
-                Personalize right insurance brilliant <mark>Plan for you</mark>
+              Search Product & Find Verified Sellers Across  <mark>East</mark> Africa
               </h2>
             </div>
           </div>
           <div className="col-xl-5">
             <div className="ins-gallery-info mt-3 mt-xl-0">
               <p className="ins-text mb-30">
-                Denounce with righteous indignation and dislike men who are so
-                beguiled and demoralized by the charms of pleasure of the
-                moment, so blinded by desire, that they cannot foresee the pain
-                and trouble that are bound through shrinking.
+                source and Access construction comodities with our app
               </p>
               <div className="d-flex align-items-center ins-gallery-info-btns flex-wrap">
-                <Link href="/contact-us">
+                <Link href="https://app.qivook.com">
                   <a className="ins-btn ins-secondary-btn">
-                    Get a Quote
+                    Go To
                     <span className="ms-1">
                       <svg
                         width="22"
@@ -155,7 +152,7 @@ const InsuranceGallery = () => {
                 >
                   <img src={item.url} alt="gallery" className="img-fluid" />
                   <a
-                    href="#"
+                    href="https://app.qivook.com"
                     className="ins-btn ins-primary-btn position-absolute"
                   >
                     View Details

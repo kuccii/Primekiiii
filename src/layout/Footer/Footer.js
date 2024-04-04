@@ -141,7 +141,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                 <div className="col-md-7 col-lg-7">
                   <div className="copyright-text">
                     <p className="mb-lg-0 mb-md-0">
-                      &copy; 2023 Qivah Rights Reserved.
+                      &copy; 2024 Qivook Rights Reserved.
                   
                     </p>
                   </div>
@@ -189,3 +189,4 @@ const Footer = ({ footerLight, style, footerGradient }) => {
 };
 
 export default dynamic(() => Promise.resolve(Footer), { ssr: false });
+
