@@ -61,7 +61,7 @@ export default function Home() {
       {/* <PriceTwo  header="true" /> */}
       {/* <FaqOne />
       <IntegrationOne /> */}
-      <LatestBlog />
+      {/* <LatestBlog /> */}
       <SupportOne />
 
       <Footer footerGradient />
