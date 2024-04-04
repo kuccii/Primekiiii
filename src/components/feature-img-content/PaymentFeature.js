@@ -86,7 +86,48 @@ export default function PaymentFeature() {
                     </Link>
                   </div>
                 </div>
+                <div className="col-lg-6">
+                  <div className="single-benifit">
+                    <div className="benifit-icon two">
+                      <img src="/bi-2.png" alt="icon" />
+                    </div>
+                    <h5>Access to information</h5>
+                    <p className="m-0">
+                      {/* Globally expedite stick Energisticall synergize emerging
+                      generation go incubate bleeding-edge. */}
+                    </p>
+                    <Link href="/about-us">
+                      <a className="link-with-icon text-decoration-none">
+                        Explore More{" "}
+                        <i>
+                          <FiArrowRight />
+                        </i>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="single-benifit">
+                    <div className="benifit-icon two">
+                      <img src="/bi-2.png" alt="icon" />
+                    </div>
+                    <h5>Increase profit</h5>
+                    <p className="m-0">
+                      {/* Globally expedite stick Energisticall synergize emerging
+                      generation go incubate bleeding-edge. */}
+                    </p>
+                    <Link href="/about-us">
+                      <a className="link-with-icon text-decoration-none">
+                        Explore More{" "}
+                        <i>
+                          <FiArrowRight />
+                        </i>
+                      </a>
+                    </Link>
+                  </div>
+                </div>
               </div>
+              
             </div>
           </div>
         </div>
