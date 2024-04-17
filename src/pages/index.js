@@ -37,6 +37,8 @@ export default function Home() {
       <HeroThirteen/>     
       <TabOne />  
       <FeatureFour />
+      <MarketingAbout />
+
       <HeroSeventeen />
       {/* <MarketingBusiness /> */}
      
@@ -48,7 +50,6 @@ export default function Home() {
 
       <PaymentFeature />
 
-      {/* <MarketingAbout /> */}
       <QuickSupport />
       {/* <GameCounter /> */}
 
