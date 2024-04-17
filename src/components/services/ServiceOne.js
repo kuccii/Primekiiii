@@ -22,7 +22,7 @@ const ServiceOne = ({ bgDark }) => {
             {bgDark ? (
               <SectionTitle
                 subtitle="Services"
-                title="Best Services Grow Your Business Value"
+                title="Best Services Grow Your Business"
                 description="Fueling Your Growth"
                 centerAlign
                 dark
