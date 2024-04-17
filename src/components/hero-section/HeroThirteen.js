@@ -22,7 +22,7 @@ export default function HeroThirteen() {
           <div className="col-lg-5 col-md-10">
             <div className="payment-gateway-text">
               <h1 className="display-5 text-white fw-bold mb-3">
-                Enabling Trade, One connection at a time.
+                African Trade Platform
                 {/* <span className="gr-text fw-bold">Fintech</span> */}
               </h1>
               <p className="text-white m-0">
