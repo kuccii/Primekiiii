@@ -38,8 +38,8 @@ export default function Home() {
       <TabOne />  
       <FeatureFour />
       <HeroSeventeen />
-      <MarketingBusiness />
-      <FeatureFour />
+      {/* <MarketingBusiness /> */}
+     
       <InsuranceGallery />
 
       
