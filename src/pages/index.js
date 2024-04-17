@@ -25,6 +25,7 @@ import LatestBlog from "@components/blogs/LatestBlog";
 import FeatureFour from "@components/features/FeatureFour";
 import TabOne from "@components/tabs/TabOne";
 import InsuranceGallery from "@components/gallery/InsuranceGallery";
+import ServiceOne from "@components/services/ServiceOne";
 
 import FeatureImgContentOne from "@components/feature-img-content/FeatureImgContentOne";
 
@@ -36,6 +37,8 @@ export default function Home() {
       <Navbar navDark />
       <HeroThirteen/>     
       <TabOne />  
+      <ServiceOne bgDark />
+
       <FeatureFour />
       {/* <MarketingAbout /> */}
       <MarketingBusiness />
