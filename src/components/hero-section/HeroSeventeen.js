@@ -24,9 +24,9 @@ const HeroSeventeen = () => {
           <div className="col-xl-7">
             <div className="mk-title">
               <h1 className="display-4 fw-bold mk-title text-white">
-                A movement towards{' '}
+                Optimzed{' '}
                 <mark className="bg-transparent p-0 text-black
-              ">Transparent</mark> Trading environment
+              ">Trading</mark> System
               </h1>
             </div>
           </div>
