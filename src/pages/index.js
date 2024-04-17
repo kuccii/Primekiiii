@@ -35,7 +35,7 @@ export default function Home() {
     <Layout>
       <Navbar navDark />
       <HeroThirteen/>     
-      <TabOne /> 
+      <TabOne />  
       <HeroSeventeen />
       <MarketingBusiness />
       <FeatureFour />
