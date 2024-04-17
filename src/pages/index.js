@@ -37,10 +37,10 @@ export default function Home() {
       <HeroThirteen/>     
       <TabOne />  
       <FeatureFour />
-      <MarketingAbout />
-
+      {/* <MarketingAbout /> */}
+      <MarketingBusiness />
       <HeroSeventeen />
-      {/* <MarketingBusiness /> */}
+      
      
       <InsuranceGallery />
 
