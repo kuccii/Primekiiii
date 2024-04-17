@@ -21,9 +21,9 @@ const ServiceOne = ({ bgDark }) => {
           <div className="col-12 justify-content-center">
             {bgDark ? (
               <SectionTitle
-                subtitle="Fueling Your Growth"
+                description="Fueling Your Growth with our"
                 title="Services"
-                description="To Grow Your Business"
+                subtitlen="To Grow Your Business"
                 centerAlign
                 dark
               />

@@ -36,8 +36,8 @@ export default function PaymentFeature() {
             <div className="benifits-right mt-5 mt-lg-0">
               <div className="benifits-right-content">
                 <h2 className="mb-3">
-                  One App with thousands of{" "}
-                  <span className="gr-text">Benefits</span>
+                  What you get from our{" "}
+                  <span className="gr-text">marketplace</span>
                 </h2>
                 <p className="m-0">
                   {/* Globally expedite sticky platforms whereas end-to-end vortals.
