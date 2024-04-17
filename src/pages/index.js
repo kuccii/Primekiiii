@@ -36,6 +36,7 @@ export default function Home() {
       <Navbar navDark />
       <HeroThirteen/>     
       <TabOne />  
+      <FeatureFour />
       <HeroSeventeen />
       <MarketingBusiness />
       <FeatureFour />
