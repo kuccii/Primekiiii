@@ -18,17 +18,16 @@ const HeroSectionNine = () => {
           <div className="col-lg-6 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
               <h1 className="fw-bold display-5">
-                We Care Your any IT Solution
+                For Exporters
               </h1>
               <p className="lead">
-                Proactively coordinate quality quality vectors vis-a-vis supply
-                chains. Quickly engage client-centric web services.
+              Expand your business horizons in Africa. Export Now and seize the continent's trade opportunities.
               </p>
               <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
                 <Link href="/request-demo" >
-                  <a  className="btn btn-primary me-3">Request For Demo</a>
+                  <a  className="btn btn-primary me-3">Export Now</a>
                 </Link>
-               <DarkModal className="true"/>
+               {/* <DarkModal className="true"/> */}
               </div>
             </div>
           </div>

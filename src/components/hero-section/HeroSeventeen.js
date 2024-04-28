@@ -23,11 +23,11 @@ const HeroSeventeen = () => {
         <div className="row align-items-center">
           <div className="col-xl-7">
             <div className="mk-title">
-              <h1 className="display-4 fw-bold mk-title text-white">
+              <h4 className="display-4 fw-bold mk-title text-white">
                 Optimzed{' '}
                 <mark className="bg-transparent p-0 text-black
               ">Trading</mark> System
-              </h1>
+              </h4>
             </div>
           </div>
           <div className="col-xl-5">
@@ -62,7 +62,7 @@ const HeroSeventeen = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="mk-hero-dashboard text-md-center position-relative mt-60 position-relative">
               <span className="mk-gradient-hero-shape position-absolute rounded-circle"></span>
@@ -84,7 +84,7 @@ const HeroSeventeen = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -26,6 +26,9 @@ import FeatureFour from "@components/features/FeatureFour";
 import TabOne from "@components/tabs/TabOne";
 import InsuranceGallery from "@components/gallery/InsuranceGallery";
 import ServiceOne from "@components/services/ServiceOne";
+import FeatureImgContentTwo from "@components/feature-img-content/FeatureImgContentTwo";
+import SingleServiceFeature from "@components/services/SingleServiceFeature";
+import HeroSectionNine from "@components/hero-section/HeroSectionNine";
 
 import FeatureImgContentOne from "@components/feature-img-content/FeatureImgContentOne";
 
@@ -40,18 +43,23 @@ export default function Home() {
       <ServiceOne bgDark />
 
       <FeatureFour />
+
       {/* <MarketingAbout /> */}
       <MarketingBusiness />
+
       <HeroSeventeen />
       
      
       <InsuranceGallery />
 
-      
+      <HeroSectionNine />
+
 
       
 
-      <PaymentFeature />
+      {/* <PaymentFeature /> */}
+
+      {/* <SingleServiceFeature /> */}
 
       <QuickSupport />
       {/* <GameCounter /> */}
