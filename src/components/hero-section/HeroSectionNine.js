@@ -59,7 +59,7 @@ const HeroSectionNine = () => {
         // }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper ptb-60" 
+        className="mySwiper " 
       >
         <SwiperSlide>
               <Image
@@ -67,21 +67,21 @@ const HeroSectionNine = () => {
                 alt="hero hero-it-solution"
                 className="img-fluid"
                 width={920}
-                height={620}
+                height={520}
               /></SwiperSlide>
         <SwiperSlide><Image
                 src="/East_africa_trade.png"
                 alt="hero hero-it-solution"
                 className="img-fluid"
                 width={920}
-                height={620}
+                height={520}
               /></SwiperSlide>
         <SwiperSlide><Image
                 src="/Africa_trade_construction_set-.png"
                 alt="hero hero-it-solution"
                 className="img-fluid"
                 width={920}
-                height={620}
+                height={520}
               /></SwiperSlide>
         
         
@@ -134,7 +134,7 @@ const HeroSectionNine = () => {
                 <span className="bubble-2"></span>
               </div>
             </div> */}
-            <Swiper align-self-center 
+            <Swiper 
         // pagination={{
         //   type: 'progressbar',
         // }}
@@ -148,7 +148,7 @@ const HeroSectionNine = () => {
                 alt="hero hero-it-solution"
                 className="img-fluid"
                 width={920}
-                height={620}
+                height={520}
               /></SwiperSlide>
         
         
