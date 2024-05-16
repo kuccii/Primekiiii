@@ -47,7 +47,7 @@ const HeroSectionNine = () => {
               
               </p>
               <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex justify-content-center">
-                <Link href="/request-demo" >
+                <Link href="https://app.qivook.com/" >
                   <a  className="btn btn-primary me-3 ">Import Now</a>
                 </Link>
                {/* <DarkModal className="true"/> */}
