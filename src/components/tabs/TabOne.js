@@ -12,7 +12,7 @@ const TabOne = () => {
         <div className="row justify-content-center align-content-center">
           <div className="col-md-10 col-lg-6">
             <SectionTitle
-              subtitle="Your Trade Partner"
+              subtitle=""
               title="About Qivook"
               description=""
               centerAlign
@@ -80,12 +80,12 @@ const TabOne = () => {
                     <div className="feature-tab-info">
                       <h3>Who we are</h3>
                       <p>
-                      Qivook stands out as a transformative force in cross-border trade in Africa, dedicated to leveraging
-                technology and rich information to spur change and growth{' '}
+                      QIVOOK is a forward-thinking company dedicated to revolutionizing cross-border trade on the African continent. With a deep commitment to improving the efficiency, transparency, and accessibility of trade, we are on a mission to empower businesses, particularly small and medium-sized enterprises (SMEs), across Africa.
+
+We utilize technology to optimize trade processes and cultivate a more efficient, inclusive, and equitable trading environment.{' '}
                       </p>
                       <p>
-                      Our Platform goes beyond transactional efficiency; it's a hub for empowering businesses with reliable supplier networks, up to date
-                information inlcuding a monthly e-magazine on market trends, and streamlined trade processes.
+                      We utilize technology to optimize trade processes and cultivate a more efficient, inclusive, and equitable trading environment.
               
                       </p>
                       <Link href="/about-us">
@@ -122,7 +122,12 @@ const TabOne = () => {
                       <p>
                       By aligning with the African Continental Free Trade Area (AfCFTA), 
                       Qivook actively promotes smoother trade flows and bolsters intra-African trade, 
-                      marking our contribution towards a unified African market.
+                      marking our contribution towards a unified African market. We believe in building 
+                      strong relationships with our customers and suppliers based on trust and integrity, 
+                      striving to provide personalized support and regular updates to ensure a seamless 
+                      trading experience. </p>
+                      <p>Our commitment includes reducing transaction costs and make cross-border trade more 
+                      accessible and cost-efficient.
                       </p>
             
                       <Link href="/about-us">
@@ -143,13 +148,13 @@ const TabOne = () => {
                     <div className="feature-tab-info">
                       <h3>Our Mission</h3>
                       <p>
-                      Our mission at Qivook is not just to facilitate transactions, 
-                      but to empower traders with a comprehensive suite of tools, resources, 
-                      and insightful knowledge. We aim to unlock new possibilities for traders 
-                      across the continent, making Qivook the cornerstone of a more connected, informed, 
-                      and prosperous trading ecosystem in Africa.
+                      We aim to unlock new possibilities for traders across the continent,
+                       making Qivook the cornerstone of a more connected, informed, 
+                       and prosperous trading ecosystem in Africa.
                       </p>
-                     
+                     <p>Our mission at Qivook is not just to facilitate transactions, 
+                      but to empower traders with a comprehensive suite of tools, resources, 
+                      and insightful knowledge.</p>
                       <Link href="/about-us">
                         <a className="read-more-link text-decoration-none mt-4 d-block">
                           Know More About Us

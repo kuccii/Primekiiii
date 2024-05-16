@@ -12,7 +12,7 @@ const FeatureFour = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-12">
               <SectionTitle
-                subtitle="Our promise"
+                subtitle=""
                 title="Our Value"
                 description="Your Peace of mind"
                 centerAlign
@@ -20,7 +20,7 @@ const FeatureFour = () => {
             </div>
           </div>
           <div className="row align-items-center">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="position-relative">
                 <div className="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 mt-md-0 z-2">
                   <div className="feature-icon d-inline-block bg-primary-soft rounded-circle mb-32">
@@ -28,9 +28,9 @@ const FeatureFour = () => {
                       <FaShieldAlt />
                     </i>
                   </div>
-                  <h3 className="h5">Trust</h3>
-                  <p className="mb-0">
-                  Building bridges through reliability.                  </p>
+                  <h3 className="h5">Simpllifed Trade Process</h3>
+                  {/* <p className="mb-0">
+                  Building bridges through reliability. </p> */}
                 </div>
 
                 <div className="dot-shape-bg position-absolute z--1 left--40 top--40">
@@ -38,7 +38,7 @@ const FeatureFour = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="position-relative">
                 <div className="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 mt-md-0">
                   <div className="feature-icon d-inline-block bg-danger-soft rounded-circle mb-32">
@@ -47,13 +47,13 @@ const FeatureFour = () => {
                     </i>
                   </div>
                   <h3 className="h5">Reliability</h3>
-                  <p className="mb-0">
+                  {/* <p className="mb-0">
                   Delivering excellence consistently, every time.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="position-relative">
                 <div className="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0">
                   <div className="feature-icon d-inline-block bg-success-soft rounded-circle mb-32">
@@ -62,9 +62,28 @@ const FeatureFour = () => {
                     </i>
                   </div>
                   <h3 className="h5">Transparency</h3>
-                  <p className="mb-0">
+                  {/* <p className="mb-0">
                   Our commitment to open communication and honesty.
-                  </p>
+                  </p> */}
+                </div>
+
+                <div className="dot-shape-bg position-absolute z--1 right--40 bottom--40">
+                  <img src="/shape/dot-big-square.svg" alt="shape" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="position-relative">
+                <div className="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0">
+                  <div className="feature-icon d-inline-block bg-success-soft rounded-circle mb-32">
+                    <i className="fad text-success fa-2x">
+                      <FaGrinStars />
+                    </i>
+                  </div>
+                  <h3 className="h5">Efficiency</h3>
+                  {/* <p className="mb-0">
+                  Our commitment to open communication and honesty.
+                  </p> */}
                 </div>
 
                 <div className="dot-shape-bg position-absolute z--1 right--40 bottom--40">

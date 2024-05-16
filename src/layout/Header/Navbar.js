@@ -24,10 +24,45 @@ const Navbar = ({ navDark, insurance, classOption }) => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+ 
+  useEffect(() => {
+    window.googleTranslateElementInit = () => {
+      if (window.google && window.google.translate && window.google.translate.TranslateElement) {
+        new window.google.translate.TranslateElement({ 
+          pageLanguage: 'en', 
+          includedLanguages: 'en,fr,sw,rw,lg',
+          layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+  
+        // Remove unwanted languages from the dropdown after the widget has been rendered
+        const intervalId = setInterval(() => {
+          const select = document.querySelector('select.goog-te-combo');
+          if (select) {
+            clearInterval(intervalId);
+            for (let i = 0; i < select.children.length; i++) {
+              const option = select.children[i];
+              if (!['en', 'fr', 'sw', 'rw', 'lg'].includes(option.value)) {
+                option.remove();
+              }
+            }
+          }
+        }, 100);
+      } else {
+        setTimeout(window.googleTranslateElementInit, 100);
+      }
+    };
+  
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    document.body.appendChild(script);
+  }, []);
 
   const handleScroll = () => {
     setScroll(window.scrollY);
   };
+  
 
   return (
     <header
@@ -41,7 +76,8 @@ const Navbar = ({ navDark, insurance, classOption }) => {
         className={`navbar navbar-expand-xl z-50 ${
           navDark ? 'navbar-dark' : 'navbar-light'
         } sticky-header ${scroll > headerTop ? 'affix' : ''}`}
-      >
+      >          
+
         <div className="container d-flex align-items-center justify-content-lg-between position-relative">
           <Link href="/">
             <a className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
@@ -152,7 +188,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a className="nav-link">Pricing</a>
                 </Link>
               </li>
-              {/*<li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link"
                   href="#"
@@ -195,8 +231,29 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     </div>
                   </div>
                 </div> 
-              </li>*/}
+              </li> */}
             </ul>
+          </div>
+          
+          <div id="google_translate_element">
+            <style>
+            {`
+        .goog-te-banner-frame.skiptranslate {
+          display: none !important;
+        } 
+        body {
+          top: 0px !important; 
+        }
+        .goog-te-combo {
+          border: none;
+          border-radius: 5px;
+          padding: 10px;
+          background: #f5f5f5;
+          color: #333;
+          font-size: 1em;
+        }
+      `}
+      `</style>
           </div>
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">

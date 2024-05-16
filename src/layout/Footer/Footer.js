@@ -182,6 +182,15 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                 </div>
               </div>
             </div>
+            <div className="chat-bubble">
+          <a href="https://wa.me/12345678901?text=I'm%20interested%20in%20your%20services" target="_blank">
+            <img src="path-to-whatsapp-icon" alt="WhatsApp" />
+          </a>
+          <a href="https://t.me/yourusername" target="_blank">
+            <img src="path-to-telegram-icon" alt="Telegram" />
+          </a>
+        </div>
+
           </div>
         </footer>
     </>

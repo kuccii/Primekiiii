@@ -19,7 +19,7 @@ const InsuranceGallery = () => {
   return (
     <section className="ins-gallery">
       <div className="container">
-        <div className="row align-items-center justify-content-between">
+        {/* <div className="row align-items-center justify-content-between">
           <div className="col-xl-6">
             <div className="ins-title">
               <div className="d-flex align-items-center">
@@ -100,85 +100,12 @@ const InsuranceGallery = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="ins-gallery-center-slider overflow-hidden">
         <div className="ins-gallery-slider swiper overflow-visible mt-5">
           <>
-            <Swiper
-              onBeforeInit={(swiper) => {
-                swiperRef.current = swiper;
-              }}
-              spaceBetween={15}
-              loop={true}
-              centeredSlides={true}
-              navigation={{
-                nextEl: ".review-swiper-button-next",
-                prevEl: ".review-swiper-button-prev",
-              }}
-              modules={[Navigation]}
-              breakpoints={{
-                375: {
-                  slidesPerView: 1,
-                },
-                414: {
-                  slidesPerView: 1,
-                },
-                660: {
-                  slidesPerView: 1,
-                },
-                768: {
-                  slidesPerView: 1,
-                },
-                991: {
-                  slidesPerView: 2,
-                },
-                1140: {
-                  slidesPerView: 3,
-                },
-                1680: {
-                  slidesPerView: 3,
-                },
-                1920: {
-                  slidesPerView: 3,
-                },
-              }}
-              className="swiper-wrapper"
-            >
-              {insuranceGallery.map((item, i) => (
-                <SwiperSlide
-                  key={i + 1}
-                  className="ins-gallery-slide-single position-relative"
-                >
-                  <img src={item.url} alt="gallery" className="img-fluid" />
-                  <a
-                    href="https://app.qivook.com"
-                    className="ins-btn ins-primary-btn position-absolute"
-                  >
-                    View Details
-                    <span className="ms-1">
-                      <svg
-                        width="22"
-                        height="9"
-                        viewBox="0 0 22 9"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M0.776428 4.55017L15.7133 4.55017"
-                          stroke="white"
-                          strokeWidth="1.49369"
-                        />
-                        <path
-                          d="M21.6888 4.54934L15.7141 7.99887L15.7141 1.09981L21.6888 4.54934Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                  </a>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+            
           </>
           {/* <div className="swiper-wrapper">
             <div className="ins-gallery-slide-single swiper-slide position-relative">
@@ -269,7 +196,7 @@ const InsuranceGallery = () => {
               </a>
             </div>
           </div> */}
-          <div
+          {/* <div
             onClick={() => swiperRef.current?.slidePrev()}
             className="swiper-btn-prev swiper-control"
             role="button"
@@ -282,7 +209,7 @@ const InsuranceGallery = () => {
             role="button"
           >
             <FaAngleRight className="mb-1" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
