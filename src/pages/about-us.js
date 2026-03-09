@@ -12,11 +12,15 @@ import FeatureImgContentTwo from "@components/feature-img-content/FeatureImgCont
 
 const AboutUs = () => {
   return (
-    <Layout title="About Us" desc="this is about us page">
+    <Layout
+      title="About QSource Network"
+      desc="Learn how QSource Network by Qivook helps suppliers, buyers, logistics providers, and customs brokers trade agricultural products across Africa with confidence."
+    >
       <Navbar classOption="navbar-light" />
       <HeroSectionTwo />
       {/* <OurStory /> */}
       <FeatureImgContentTwo />
+      <WorkProcessOne />
       {/* <OurTeam /> */}
       {/* <TestimonialTwo swiperBgClass="bg-white" /> */}
       {/* <OurOffice /> */}

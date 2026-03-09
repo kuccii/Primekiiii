@@ -10,11 +10,14 @@ import TestimonialTwo from "@components/testimonial/TestimonialTwo";
 
 const services = () => {
   return (
-    <Layout title="Services" desc="this is services page  ">
+    <Layout
+      title="Services"
+      desc="Explore QSource Network services for agricultural suppliers, buyers, logistics providers, and customs brokers across Africa."
+    >
       <Navbar classOption="navbar-light" />
       <PageHeader
-        title="Service Offerings"
-        desc="Discover a wide range of services designed to empower your business and drive success."
+        title="What QSource Network Offers"
+        desc="Discover services designed to help you find trusted partners, understand markets, and execute cross-border agricultural trade with confidence."
       />
 
       <ServiceOne />

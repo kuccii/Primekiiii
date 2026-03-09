@@ -63,18 +63,7 @@ export default function Home() {
 
       <QuickSupport />
       {/* <GameCounter /> */}
-
-      
-      {/* <WorkProcessFive /> */}
-
-      {/* <FeatureOne /> */}
-      {/* <FeatureImgContentOne /> */}
-      {/* <TestimonialOne darkBg /> */}
-      {/* <WorkProcessOne darkBg/> */}
-      {/* <PriceTwo  header="true" /> */}
-      {/* <FaqOne />
-      <IntegrationOne /> */}
-      {/* <LatestBlog /> */}
+      <WorkProcessOne />
       <SupportOne />
 
       <Footer footerGradient />

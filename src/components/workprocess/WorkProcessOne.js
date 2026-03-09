@@ -12,10 +12,10 @@ const WorkProcessOne = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-10">
             <div className="section-heading text-center">
-              <h4 className="h5 text-primary">Process</h4>
-              <h2>How it works</h2>
+              <h4 className="h5 text-primary">How QSource Network Works</h4>
+              <h2>From profile to trusted trade partner</h2>
               <p>
-                
+                QSource Network guides you from creating a verified business profile through intelligent matching, recommendations, and secure deal execution.
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const WorkProcessOne = () => {
                   <span className="text-primary h6">Step 1</span>
                   <h3 className="h5 mb-2">Business Profile Creation</h3>
                   <p>
-                  {/* Create a comprehensive profile to showcase your offerings, expertise, and value proposition, attracting potential partners. */}
+                    Create a verified business profile with your role, commodities, certifications, capacity, and markets so the right partners can find you.
                   </p>
                 </div>
               </li>
@@ -59,7 +59,7 @@ const WorkProcessOne = () => {
                   <span className="text-primary h6">Step 2</span>
                   <h3 className="h5 mb-2">Intelligent Matching Algorithm</h3>
                   <p>
-                  {/* Our advanced algorithm connects businesses with compatible partners based on industry, location, and specific requirements, ensuring precise matches. */}
+                    QSource analyzes your profile, trade needs, and region to surface compatible suppliers, buyers, and service providers across Africa.
                   </p>
                 </div>
               </li>
@@ -73,7 +73,7 @@ const WorkProcessOne = () => {
                   <span className="text-primary h6">Step 3</span>
                   <h3 className="h5 mb-2">Personalized Recommendations</h3>
                   <p>
-                  {/* Receive tailored partner recommendations aligned with your criteria, including necessary documentation. */}
+                    Receive tailored partner recommendations and export-ready opportunities that match your commodity, volume, and compliance requirements.
                   </p>
                 </div>
               </li>
@@ -88,7 +88,7 @@ const WorkProcessOne = () => {
                   <span className="text-primary h6">Step 4</span>
                   <h3 className="h5 mb-2">Secure Deal Making and Documentation</h3>
                   <p>
-                  {/* Securely communicate, negotiate, and Generate and trading documentation and compliance */}
+                    Move into the QSource app to communicate, negotiate, and manage trade documentation and compliance with full visibility and control.
                   </p>
                 </div>
               </li>

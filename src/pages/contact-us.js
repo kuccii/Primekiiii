@@ -8,7 +8,10 @@ import ContactForm from '@components/contact-us/ContactForm';
 
 const ContactUs = () => {
   return (
-    <Layout title="Contact Us" desc="This is contact us page">
+    <Layout
+      title="Contact QSource Network"
+      desc="Get in touch with the QSource Network team for platform support, partnerships, and enterprise trade opportunities."
+    >
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="Contact Us"

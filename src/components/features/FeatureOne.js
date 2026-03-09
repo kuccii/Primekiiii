@@ -66,9 +66,9 @@ const FeatureOne = () => {
             <div className="col-lg-6 mt-4">
               <div className="position-relative d-flex flex-column h-100 flex-wrap bg-danger-soft p-5 rounded-custom">
                 <div className="cta-left-info mb-2">
-                  <h5>Get Connect to trusted suppliers</h5>
+                  <h5>Get connected to trusted suppliers</h5>
                   <p>
-                    {" "}
+                    Use QSource Network to discover verified African suppliers for your key commodities and send qualified purchase inquiries directly from the app.
                   </p>
                 </div>
                 <div className="action-btns mt-auto">
@@ -95,7 +95,7 @@ const FeatureOne = () => {
                 <div className="cta-left-info mb-2">
                   <h5>Get matched with potential buyers</h5>
                   <p>
-                    {" "}
+                    List your products, capacity, and certifications, and let QSource Network match you with buyers actively sourcing from Africa.
                   </p>
                 </div>
                 <div className="action-btns mt-auto">
