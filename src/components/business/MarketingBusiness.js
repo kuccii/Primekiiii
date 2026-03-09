@@ -22,11 +22,11 @@ const MarketingBusiness = () => {
           <div className="col-xl-5">
             <div className="mk-business-content">
               <h3 className="mk-heading mb-3">
-                Why QSource Network (QSN)
+                Why QSource Network
                 <br className="d-none d-sm-block" /> in Your Business
               </h3>
               <p className="mb-30">
-                QSource Network (QSN) by Qivook empowers your agricultural business with direct access to verified suppliers, real-time market intelligence, and streamlined trade processes. Join hundreds of businesses already growing their cross-border trade across Africa.
+                QSource Network by Qivook empowers your agricultural business with direct access to verified suppliers, real-time market intelligence, and streamlined trade processes. Join hundreds of businesses already growing their cross-border trade across Africa.
               </p>
               <ul className="mk-business-reports p-0">
                 <li className="d-flex align-items-start mk-bg-secondary">

@@ -125,7 +125,7 @@ const HeroSeventeen = () => {
           <div className="col-xl-5">
             <div className="ins-gallery-info mt-3 mt-xl-0">
               <p className="ins-text mb-30 text-white display-6.2">
-                Source and access agricultural commodities with verified suppliers across Africa. Browse products, compare prices, and connect directly with trusted partners through QSource Network (QSN).
+                Source and access agricultural commodities with verified suppliers across Africa. Browse products, compare prices, and connect directly with trusted partners through QSource Network.
               </p>
               <div className="d-flex align-items-center ins-gallery-info-btns flex-wrap">
               <Link href="https://app.qivook.com">

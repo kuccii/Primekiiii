@@ -19,7 +19,7 @@ const HeroSectionTwo = () => {
                   Join Us in the Future of African Agricultural Trade
                   </h1>
                   <p className="lead">
-                  We invite you to join us on this exciting journey of cross-border agricultural trade transformation. With the QSource Network (QSN) platform, you have a partner committed to your success and dedicated to making cross-border agricultural trading accessible, efficient, and trustworthy across Africa.
+                  We invite you to join us on this exciting journey of cross-border agricultural trade transformation. With the QSource Network platform, you have a partner committed to your success and dedicated to making cross-border agricultural trading accessible, efficient, and trustworthy across Africa.
                   </p>
                   {/* <Link href="/career">
                     <a className="btn btn-primary mt-4 me-3">Open Positions</a>

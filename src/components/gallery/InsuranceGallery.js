@@ -52,7 +52,7 @@ const InsuranceGallery = () => {
           <div className="col-xl-5">
             <div className="ins-gallery-info mt-3 mt-xl-0">
               <p className="ins-text mb-30">
-                Source and access agricultural commodities from verified suppliers across Africa. Browse products, compare prices, and connect directly with trusted partners through the QSource Network (QSN) platform.
+                Source and access agricultural commodities from verified suppliers across Africa. Browse products, compare prices, and connect directly with trusted partners through the QSource Network platform.
               </p>
               <div className="d-flex align-items-center ins-gallery-info-btns flex-wrap">
                 <Link href="https://app.qivook.com">

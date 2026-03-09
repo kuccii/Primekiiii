@@ -22,11 +22,11 @@ export default function HeroThirteen() {
           <div className="col-lg-5 col-md-10">
             <div className="payment-gateway-text">
               <h1 className="display-5 text-white fw-bold mb-3">
-                QSource Network (QSN) - Connect, Trade, Grow
+                QSource Network - Connect, Trade, Grow
                 {/* <span className="gr-text fw-bold">Fintech</span> */}
               </h1>
               <p className="text-white m-0">
-                QSource Network (QSN) by Qivook connects African agricultural businesses with verified suppliers and buyers. Access real-time market intelligence, streamline trade processes, and grow your cross-border agricultural business.
+                QSource Network by Qivook connects African agricultural businesses with verified suppliers and buyers. Access real-time market intelligence, streamline trade processes, and grow your cross-border agricultural business.
               </p>
               <div className="action-btns mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
                 <Link href="https://app.qivook.com">

@@ -11,8 +11,8 @@ const Layout = ({ children, title, desc, hasClass, classOpt }) => {
       <Head>
         <title>
           {title
-            ? `Qivook - QSource Network (QSN) | ${title}`
-            : "Qivook - QSource Network (QSN) Platform"}
+            ? `Qivook - QSource Network | ${title}`
+            : "Qivook - QSource Network Platform"}
         </title>
         {desc && <meta name="description" content={desc} />}
         <link rel="icon" href="/favicon.png" />

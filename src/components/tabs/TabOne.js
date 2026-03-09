@@ -13,7 +13,7 @@ const TabOne = () => {
           <div className="col-md-10 col-lg-6">
             <SectionTitle
               subtitle="About Us"
-              title="QSource Network (QSN) by Qivook"
+              title="QSource Network by Qivook"
               description="Empowering African agricultural trade through QSource Network and trusted connections"
               centerAlign
             />
@@ -80,7 +80,7 @@ const TabOne = () => {
                     <div className="feature-tab-info">
                       <h3>Who We Are</h3>
                       <p>
-                      Qivook is a forward-thinking company dedicated to revolutionizing cross-border agricultural trade on the African continent through the QSource Network (QSN) platform. With a deep commitment to improving the efficiency, transparency, and accessibility of trade, we are on a mission to empower businesses, particularly small and medium-sized enterprises (SMEs), across Africa.
+                      Qivook is a forward-thinking company dedicated to revolutionizing cross-border agricultural trade on the African continent through the QSource Network platform. With a deep commitment to improving the efficiency, transparency, and accessibility of trade, we are on a mission to empower businesses, particularly small and medium-sized enterprises (SMEs), across Africa.
                       </p>
                       <p>
                       We utilize cutting-edge technology through the QSource Network platform to optimize trade processes, reduce barriers, and cultivate a more efficient, inclusive, and equitable agricultural trading environment that benefits all participants.
@@ -147,7 +147,7 @@ const TabOne = () => {
                       <h3>Our Mission</h3>
                       <p>
                       We aim to unlock new possibilities for agricultural traders across the African continent,
-                       making the QSource Network (QSN) platform the cornerstone of a more connected, informed, 
+                       making the QSource Network platform the cornerstone of a more connected, informed, 
                        and prosperous agricultural trading ecosystem. Our vision is to see African agricultural businesses thrive through seamless cross-border trade.
                       </p>
                      <p>Our mission at Qivook is not just to facilitate transactions through the QSource Network platform, 

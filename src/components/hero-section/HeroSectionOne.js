@@ -26,7 +26,7 @@ const HeroSectionOne = () => {
               Empowering Trade, One Connection at a Time
               </h1>
               <p className="lead">
-              QSource Network (QSN) by Qivook - Your gateway to verified African agricultural suppliers and buyers. Connect directly, access market intelligence, and streamline your cross-border trade operations.
+              QSource Network by Qivook is your gateway to verified African agricultural suppliers and buyers. Connect directly, access market intelligence, and streamline your cross-border trade operations.
               </p>
               <div className="action-btns mt-5 align-items-center flex d-sm-flex d-lg-flex d-md-flex">
                 <Link href="https://app.qivook.com">

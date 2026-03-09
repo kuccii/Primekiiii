@@ -38,10 +38,10 @@ export default function EventAbout() {
               <span className="text-black fw-bold mb-3 d-inline-block">
               Your Trusted Agricultural Trade Partner
               </span>
-              <h2 className="mb-4">About QSource Network (QSN) by Qivook</h2>
+              <h2 className="mb-4">About QSource Network by Qivook</h2>
               <p>
                 Qivook stands out as a transformative force in cross-border agricultural trade in Africa, dedicated to leveraging
-                technology and rich market information through the QSource Network (QSN) platform to spur change, growth, and prosperity across the continent.
+                technology and rich market information through the QSource Network platform to spur change, growth, and prosperity across the continent.
               </p>
               <p className="mb-4">
                 The QSource Network platform goes beyond transactional efficiency; it's a comprehensive hub for empowering agricultural businesses with reliable supplier networks, up-to-date

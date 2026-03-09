@@ -14,7 +14,7 @@ const QuickSupport = () => {
             <SectionTitle
               subtitle="Quick Support"
               title="Get in Touch Today!"
-              description="Have questions about QSource Network (QSN) or need assistance with your agricultural trade operations? Our team is here to help you succeed."
+              description="Have questions about QSource Network or need assistance with your agricultural trade operations? Our team is here to help you succeed."
             />
             <div className="row justify-content-between pb-5">
               <div className="col-sm-6 mb-4 mb-md-0 mb-lg-0">

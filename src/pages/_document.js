@@ -1,8 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-const APP_NAME = 'Qivook - QSource Network (QSN)';
+const APP_NAME = 'Qivook - QSource Network';
 const APP_DESCRIPTION =
-  'Qivook\'s QSource Network (QSN) platform - A comprehensive solution for cross-border agricultural trade in Africa. Connect with verified suppliers, access market insights, and streamline your trade processes.';
+  'Qivook\'s QSource Network platform - A comprehensive solution for cross-border agricultural trade in Africa. Connect with verified suppliers, access market insights, and streamline your trade processes.';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {

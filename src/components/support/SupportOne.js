@@ -35,9 +35,9 @@ const SupportOne = ({ className }) => {
                   <h4 className="h5 text-warning">
                     Let&apos;s Try!
                   </h4>
-                  <h2>Start Trading with QSource Network (QSN)</h2>
+                  <h2>Start Trading with QSource Network</h2>
                   <p>
-                  Join hundreds of agricultural businesses across Africa using QSource Network (QSN) to connect with verified suppliers, access market intelligence, and streamline cross-border trade. Get started today.
+                  Join hundreds of agricultural businesses across Africa using QSource Network to connect with verified suppliers, access market intelligence, and streamline cross-border trade. Get started today.
                   </p>
                 </div>
                 <div className="form-block-banner mw-60 m-auto mt-5">
