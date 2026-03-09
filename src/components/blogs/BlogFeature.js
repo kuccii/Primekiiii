@@ -15,8 +15,8 @@ const BlogFeature = () => {
               <Link href="/blog-single">
                 <a className="article-img">
                   <img
-                    src="/blog/blog-10.jpg"
-                    alt="article"
+                    src="/african_Trade.png"
+                    alt="African agricultural trade overview"
                     className="img-fluid"
                   />
                 </a>
@@ -71,8 +71,8 @@ const BlogFeature = () => {
               <Link href="/blog-single">
                 <a className="article-img">
                   <img
-                    src="/blog/blog-11.jpg"
-                    alt="article"
+                    src="/Africa-trade-export-.png"
+                    alt="Exporting agricultural products from Africa"
                     className="img-fluid"
                   />
                 </a>
