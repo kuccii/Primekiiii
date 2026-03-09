@@ -28,7 +28,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="true"
                   >
-                    All Documentation
+                    Getting Started
                   </button>
                   <button
                     className="nav-link"
@@ -38,7 +38,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Payments Query
+                    Profiles & Verification
                   </button>
                   <button
                     className="nav-link"
@@ -48,7 +48,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Setup or Installment
+                    Deal Pipeline
                   </button>
                   <button
                     className="nav-link"
@@ -58,7 +58,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Technical Support
+                    Documents & Compliance
                   </button>
                   <button
                     className="nav-link"
@@ -68,7 +68,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Retailers & Customer
+                    Payments & Subscriptions
                   </button>
                   <button
                     className="nav-link"
@@ -78,7 +78,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Security Issues
+                    Security & Moderation
                   </button>
                   <button
                     className="nav-link"
@@ -88,7 +88,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Brand Creation
+                    Agents & Referrals
                   </button>
                   <button
                     className="nav-link"
@@ -98,7 +98,7 @@ const HelpCenterDetails = () => {
                     role="tab"
                     aria-selected="false"
                   >
-                    Legal Support
+                    Platform & Account
                   </button>
                 </div>
                 <div className="bg-light p-5 mt-4 rounded-custom quick-support">
@@ -114,16 +114,14 @@ const HelpCenterDetails = () => {
                       </div>
                     </a>
                   </Link>
-                  <Link href="mailto:info@themetags.com">
+                  <Link href="mailto:support@qivook.com">
                     <a className="text-decoration-none text-muted d-flex align-items-center py-2">
                       <div className="quick-support-icon rounded-circle bg-primary-soft me-3">
                         <i className="far text-primary">
                           <FaRegEnvelope />
                         </i>
                       </div>
-                      <div className="contact-option-text">
-                        info@themetags.com
-                      </div>
+                      <div className="contact-option-text">support@qivook.com</div>
                     </a>
                   </Link>
                   <Link href="#!">

@@ -17,82 +17,83 @@ const IconBoxData = [
   {
     classOption: "bg-primary",
     icon: "fal fa-layer-group fa-2x text-white",
-    title: "Good Performance",
+    title: "Built for African Trade",
     description:
-      "Appropriately grow competitive leadership rather than strategic technically sound processes without state .",
+      "Designed specifically for cross-border agricultural trade in Africa, not a generic SaaS template.",
   },
   {
     id: 2,
     classOption: "bg-danger",
     icon: "fal fa-shield-check fa-2x text-white",
-    title: "Highly Secure",
+    title: "Verified & Secure",
     description:
-      "Appropriately grow competitive leadership rather than strategic technically sound processes without state.",
+      "All trade profiles are verified, and deals are supported by clear documentation and secure workflows.",
   },
   {
     id: 3,
     classOption: "bg-dark",
     icon: "fal fa-code fa-2x text-white",
-    title: "Fast Development",
+    title: "Serious Deal Pipeline",
     description:
-      "Appropriately grow competitive leadership rather than strategic technically sound processes without state.",
+      "From inquiry to delivery and payment, QSource Network tracks every step of the trade pipeline.",
   },
 ];
+
 const FaqOneData = [
   {
-    faqTitle: "How does back pricing work?",
+    faqTitle: "Who is QSource Network for?",
     faqDesc:
-      "Progressively e-enable collaborative inexpensive supply chains. Efficiently maintain economically methods of empowerment for synergistic sound scenarios.",
+      "QSource Network is built for serious agricultural suppliers, buyers, logistics providers, and customs brokers who need a structured, traceable way to run cross-border deals across Africa.",
   },
   {
     id: 2,
-    faqTitle: "How do I calculate how much price?",
+    faqTitle: "How does QSource Network support my trade pipeline?",
     faqDesc:
-      "Globally benchmark customized mindshare before clicks-and-mortar partnerships. Efficiently maintain economically sound scenarios and whereas client-based progressively.",
+      "We provide verified profiles, a structured deal pipeline, document management, and market intelligence so you can move from inquiry to negotiation, contracting, shipment, and payment with confidence.",
   },
   {
     id: 3,
-    faqTitle: "Can you show me an example?",
+    faqTitle: "How do I access the marketplace?",
     faqDesc:
-      "Dynamically visualize whereas competitive relationships. Progressively benchmark customized partnerships generate interdependent benefits rather sound scenarios and robust alignments.",
+      "Create your account and complete your trade profile, then sign in to the app at app.qivook.com to browse partners, send inquiries, and manage your deals in one place.",
   },
 ];
 
 const TestimonialData = [
   {
     authorImg: "/testimonial/1.jpg",
-    authorName: "Mr.Rupan Oberoi",
-    authorTitle: "Founder and CEO at Amaara Herbs",
-    quoteTitle: "The Best Template You Got to Have it!",
+    authorName: "Grace N.",
+    authorTitle: "Export Manager, Kenyan Grain Cooperative",
+    quoteTitle: "We finally have a serious platform for African trade.",
     authorQuote:
-      "Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media than ethical",
+      "With QSource Network, our export deals are now fully traceable from first inquiry to shipment and payment. The verified profiles and structured pipeline give us confidence on every transaction.",
   },
   {
     id: 2,
     authorImg: "/testimonial/2.jpg",
-    authorName: "Joan Dho",
-    authorTitle: "Founder and CTO",
-    quoteTitle: "Best Template for SAAS Company!",
+    authorName: "Abdoulaye K.",
+    authorTitle: "Sesame Buyer, West Africa",
+    quoteTitle: "Quality suppliers and clear documentation.",
     authorQuote:
-      "Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.",
+      "Instead of chasing contacts on WhatsApp, we now discover verified suppliers, review their documents, and manage contracts in one place. It feels like the infrastructure African trade has been missing.",
   },
   {
     id: 3,
     authorImg: "/testimonial/3.jpg",
-    authorName: "Ranu Mondal",
-    authorTitle: "Lead Developer",
-    quoteTitle: "It is undeniably good!",
+    authorName: "Lerato M.",
+    authorTitle: "Logistics & Customs Consultant",
+    quoteTitle: "QSource makes complex cross-border moves manageable.",
     authorQuote:
-      "Rapidiously supply client-centric e-markets and maintainable processes progressively engineer",
+      "The combination of profiles, documents, and pipeline stages means we can see where a deal is stuck and what is missing. It reduces friction for everyone involved in the trade.",
   },
   {
     id: 4,
     authorImg: "/testimonial/4.jpg",
-    authorName: "Mr.Rupan Oberoi",
-    authorTitle: "Founder and CEO at Amaara Herbs",
-    quoteTitle: "The Best Template You Got to Have it!",
+    authorName: "Ahmed S.",
+    authorTitle: "Agri Commodities Trader, North Africa",
+    quoteTitle: "Built around how real deals actually work.",
     authorQuote:
-      "Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media than ethical",
+      "Qivook clearly understands serious commodity trading. QSource Network reflects the real workflow: verification, negotiation, documentation, shipment, and dispute resolution when needed.",
   },
 ];
 
@@ -231,10 +232,6 @@ const footerPages = [
     href: "/contact-us",
   },
   {
-    title: "Career Single",
-    href: "/career-single",
-  },
-  {
     title: "Services Single",
     href: "/single-service",
   },
@@ -259,10 +256,6 @@ const footerTemplate = [
   {
     title: "Coming Soon",
     href: "/coming-soon",
-  },
-  {
-    title: "Career Single",
-    href: "/career-single",
   },
 ];
 

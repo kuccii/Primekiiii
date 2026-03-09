@@ -10,11 +10,14 @@ import RelatedIntegration from '@components/integration/RelatedIntegration';
 
 const IntegrationSingle = () => {
   return (
-    <Layout title="Integration Single" desc="This is integration single page">
+    <Layout
+      title="Example Integration"
+      desc="An example of how QSource Network can integrate with third-party tools to support identity, payments, or internal reporting."
+    >
       <Navbar />
       <PageHeader
-        title="Connect with Google"
-        desc="Objectively fabricate strategic products for high-impact materials."
+        title="Connecting QSource Network with External Tools"
+        desc="Use integrations to connect QSource Network to your identity providers, payment gateways, or internal systems so your team has one consistent view of trade activity."
         integration
       />
       <IntegrationDetails />

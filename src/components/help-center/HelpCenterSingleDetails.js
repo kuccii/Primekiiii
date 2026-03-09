@@ -9,7 +9,7 @@ const HelpCenterSingleDetails = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-lg-4 col-md-4 d-none d-md-block d-lg-block">
-            <div className="support-article-sidebar sticky-sidebar">
+              <div className="support-article-sidebar sticky-sidebar">
               <Link href="/help-center">
                 <a className="btn btn-primary mb-4 btn-sm">
                   <i className="far fa-angle-left me-2"></i> Go Back
@@ -19,34 +19,32 @@ const HelpCenterSingleDetails = () => {
                 <h5>Related Support Articles</h5>
                 <Link href="/help-center-single">
                   <a className="text-muted text-decoration-none py-2 d-block">
-                    Can retailers opt-out of participation at any time?
+                    How do I get my trade profile verified?
                   </a>
                 </Link>
                 <Link href="/help-center-single">
                   <a className="text-muted text-decoration-none py-2 d-block">
-                    How long does enforcement take after a MAP violation attempt
-                    is made?
+                    What documents are required before I can close a deal?
                   </a>
                 </Link>
                 <Link href="/help-center-single">
                   <a className="text-muted text-decoration-none py-2 d-block">
-                    After retailer acceptance, how long does it take for
-                    enforcement href occur?
+                    How does the deal pipeline work on QSource Network?
                   </a>
                 </Link>
                 <Link href="/help-center-single">
                   <a className="text-muted text-decoration-none py-2 d-block">
-                    What is the monthly cost of your app?
+                    How are disputes handled between buyers and suppliers?
                   </a>
                 </Link>
                 <Link href="/help-center-single">
                   <a className="text-muted text-decoration-none py-2 d-block">
-                    Do you offer refunds for the subscriptions?
+                    How are payments and subscriptions managed?
                   </a>
                 </Link>
                 <Link href="/help-center-single">
                   <a className="text-muted text-decoration-none py-2 d-block">
-                    Are notifications sent when MAP violation attempts occur?
+                    What security measures protect my data and documents?
                   </a>
                 </Link>
               </div>
@@ -63,16 +61,14 @@ const HelpCenterSingleDetails = () => {
                     </div>
                   </a>
                 </Link>
-                <Link href="mailto:info@themetags.com">
+                <Link href="mailto:support@qivook.com">
                   <a className="text-decoration-none text-muted d-flex align-items-center py-2">
                     <div className="quick-support-icon rounded-circle bg-primary-soft me-3">
                       <i className="far text-primary">
                         <FaRegEnvelope />
                       </i>
                     </div>
-                    <div className="contact-option-text">
-                      info@themetags.com
-                    </div>
+                    <div className="contact-option-text">support@qivook.com</div>
                   </a>
                 </Link>
                 <Link href="#!">
@@ -91,71 +87,40 @@ const HelpCenterSingleDetails = () => {
           <div className="col-lg-8 col-md-8 p-lg-5">
             <div className="support-article-wrap">
               <h1 className="display-5 mb-4 fw-bold">
-                Can retailers opt-out of participation at any time?
+                How do I get my trade profile verified on QSource Network?
               </h1>
               <p>
-                Dramatically plagiarize client-based relationships and
-                interactive supply chains. Interactively enable leading-edge
-                outsourcing without interoperable sources. Compellingly
-                fabricate multifunctional mindshare with prospective e-business.
-                Phosfluorescently impact process-centric value via
-                principle-centered deliverables. Dramatically visualize diverse
-                services whereas future-proof networks.
+                Verification is how we protect serious traders on QSource Network. A verified profile shows other businesses that you have provided accurate information about your company, your role in the value chain, and the key documents that support your activities (such as registration, tax, or export licenses).
               </p>
               <p>
-                Dynamically disseminate progressive deliverables with long-term
-                high-impact niche markets. Interactively parallel task unique
-                communities for future-proof results. Holisticly innovate
-                strategic deliverables through innovative leadership.{' '}
+                Once you submit your profile and upload the requested documents, our team or automated checks will review them. If something is missing or unclear, we&apos;ll ask for clarification rather than simply rejecting you, because we understand documentation in African markets is not always straightforward.
               </p>
 
               <div className="job-details-info my-5">
-                <h3 className="h5">Follow this Step Bellow Responsibilities</h3>
+                <h3 className="h5">Steps to Get Verified</h3>
                 <ul className="content-list list-unstyled">
                   <li>
-                    Be involved in every step of the product design cycle from
-                    discovery and user acceptance testing.
+                    Complete your trade profile with your real business name, role (supplier, buyer, logistics, customs), and primary commodities.
                   </li>
                   <li>
-                    Work with BAs, product managers and tech teams href lead the
-                    Product Design
+                    Upload clear copies of your key documents (e.g. company registration, tax certificate, export license where applicable).
                   </li>
                   <li>
-                    Maintain quality of the design process and ensure that when
-                    designs are translated into code they accurately.
+                    Ensure your contact information (phone and email) is reachable, as our team may contact you for a quick verification call if needed.
                   </li>
                   <li>
-                    Accurately estimate design tickets during planning sessions.
+                    Keep your profile up to date when your capacity, locations, or documents change so that counterparties always see accurate information.
                   </li>
                   <li>
-                    Contribute href sketching sessions involving
-                    non-designersCreate, and pattern libraries.
-                  </li>
-                  <li>
-                    Design pixel perfect responsive UI’s and understand that
-                    adopting common interface
-                  </li>
-                  <li>
-                    Interface patterns is better for UX than reinventing the
-                    wheel
+                    If your profile is flagged or verification is delayed, respond promptly to any requests from the QSource support team.
                   </li>
                 </ul>
               </div>
               <p>
-                Enthusiastically expedite client-focused communities for
-                process-centric collaboration and idea-sharing. Globally evolve
-                high-quality methods of empowerment via plug-and-play resources.
-                Compellingly transition worldwide strategic theme areas
-                vis-a-vis frictionless systems.{' '}
+                A verified profile is not a guarantee of performance, but it is a strong signal that you are a serious, identifiable business. It also unlocks additional visibility and pipeline features inside QSource Network, helping you access better partners and higher quality deals.
               </p>
               <p>
-                Uniquely develop empowered expertise without parallel portals.
-                Efficiently reintermediate plug-and-play imperatives without
-                goal-oriented technologies. Rapidiously network frictionless
-                scenarios rather than multidisciplinary innovation. Efficiently
-                restore interactive resources before enterprise-wide
-                functionalities. Phosfluorescently benchmark an expanded array
-                of data for premier interfaces.
+                If you have questions about specific documents or operate in a context where formal paperwork is limited, contact our team. We will work with you to find a practical way to demonstrate credibility without blocking your access to opportunities.
               </p>
             </div>
           </div>

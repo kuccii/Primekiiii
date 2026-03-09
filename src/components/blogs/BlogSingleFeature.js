@@ -12,65 +12,40 @@ const BlogSingleFeature = () => {
             <div className="col-lg-8 pe-5">
               <div className="blog-details-wrap">
                 <p>
-                  Objectively restore stand-alone markets rather than
-                  enterprise-wide products. Uniquely underwhelm best-of-breed
-                  mindshare through adaptive niches. Interactively leverage
-                  existing innovative e-services seamlessly parallel task
-                  open-source content without resource sucking technology.
+                  Serious agricultural deals in Africa are not just about swapping contacts on messaging apps. They require verified partners, clear documentation, and a step-by-step process from inquiry to shipment and payment. QSource Network is designed to make that full pipeline visible and manageable for everyone involved.
                 </p>
                 <p>
-                  Dramatically cultivate frictionless communities with
-                  enterprise-wide customer service. Dramatically simplify
-                  web-enabled growth strategies rather than integrated
-                  imperatives. Interactively leverage existing innovative
-                  e-services customer service. Intrinsicly impact web-enabled
-                  value vis-a-vis innovative customer service. Continually
-                  procrastinate efficient growth strategies for backend
-                  experiences.
+                  Instead of hunting for scattered information, trade teams can see the complete picture: who the counterparty is, what products and volumes are being discussed, which documents are uploaded, and what stage the deal is in. This is how you move from informal conversations to traceable, bankable trade flows.
                 </p>
                 <div className="blog-details-info mt-5">
-                  <h3 className="h5">Customer retention is key</h3>
+                  <h3 className="h5">From Inquiry to Structured Deal</h3>
                   <ul className="content-list list-unstyled">
                     <li>
-                      Be involved in every step of the product design cycle from
-                      discovery and user acceptance testing.
+                      Start with a clear inquiry that captures commodity, quality, volume, target ports, and expected timelines.
                     </li>
                     <li>
-                      Work with BAs, product managers and tech teams to lead the
-                      Product Design
+                      Use profiles and documents to verify the counterparty before you commit to serious negotiation.
                     </li>
                     <li>
-                      Maintain quality of the design process and ensure that
-                      when designs are translated into code they accurately.
+                      Move through structured stages: negotiation, samples and quality checks, contracting, logistics, and payment.
                     </li>
                     <li>
-                      Accurately estimate design tickets during planning
-                      sessions.
+                      Keep a full audit trail of who approved what and when, including any backward moves in the pipeline.
                     </li>
                     <li>
-                      Contribute to sketching sessions involving
-                      non-designersCreate, and pattern libraries.
+                      Capture learnings and data from each deal to make the next one faster and lower risk.
                     </li>
                     <li>
-                      Design pixel perfect responsive UI’s and understand that
-                      adopting common interface
+                      Use this structure to build a repeatable, scalable trade operation instead of one-off transactions.
                     </li>
                     <li>
-                      Interface patterns is better for UX than reinventing the
-                      wheel
+                      Align internal teams (commercial, logistics, compliance, finance) around one shared source of truth.
                     </li>
                   </ul>
                   <blockquote className="bg-white custom-shadow p-5 mt-5 rounded-custom border-4 border-primary border-top">
                     <p className="text-muted">
                       <i className="fas fa-quote-left me-2 text-primary"></i>{' '}
-                      Globally network long-term high-impact schemas vis-a-vis
-                      distinctive e-commerce cross-media infrastructures rather
-                      than ethical. Credibly visualize distinctive testing
-                      procedures without end-to-end ROI. Seamlessly brand
-                      cross-platform communities with backend markets.
-                      Assertively utilize business services through robust
-                      solutions. Rapidiously deliver cross-unit infrastructures
-                      rather than accurate metrics.
+                      "We built QSource Network around how agricultural deals actually work: profiles, documents, stages, and history. If a dispute arises or a bank wants to see the trail, everything is in one place—no more relying on screenshots and scattered emails."
                       <i className="fas fa-quote-right ms-2 text-primary"></i>
                     </p>
                   </blockquote>
@@ -83,30 +58,19 @@ const BlogSingleFeature = () => {
                   alt="apply"
                 />
                 <div className="job-details-info mt-5">
-                  <h3 className="h5">
-                    Focus on increasing customer retention first
-                  </h3>
+                  <h3 className="h5">What Serious Traders Expect from a Platform</h3>
                   <p>
-                    Appropriately fashion ubiquitous information without
-                    future-proof growth strategies. Interactively morph
-                    cutting-edge e-business before functional potentialities.
-                    Compellingly syndicate empowered communities via multimedia
-                    based schemas. Objectively productize granular materials
-                    whereas quality solutions. Collaboratively reinvent
-                    innovative paradigms and low-risk high-yield action items.
+                    Serious suppliers, buyers, and logistics providers are not looking for another social network. They need a working environment that respects the complexity of their work and reduces operational risk. That means verification, clear roles, document control, and a transparent pipeline.
                   </p>
                   <ul className="content-list list-unstyled">
                     <li>
-                      Interactively plagiarize covalent outside the box
-                      thinking vis-a-vis.
+                      Verified trade profiles with clear roles, capacities, and compliance documents.
                     </li>
                     <li>
-                      Holisticly communicate integrated channels via backend
-                      interfaces. Authoritatively.
+                      A pipeline that enforces the right order: due diligence before commitment, documents before shipment, and agreed evidence before final payment.
                     </li>
                     <li>
-                      Globally actualize effective processes through synergistic
-                      ROI. Interactively.
+                      Tools for handling exceptions—disputes, quality issues, or delays—without losing the overall view of the deal.
                     </li>
                   </ul>
                 </div>

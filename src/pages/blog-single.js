@@ -11,9 +11,14 @@ import BlogSingleFeature from '@components/blogs/BlogSingleFeature';
 
 const BlogSingle = () => {
   return (
-    <Layout title="Blog Single" desc="This is blog single page">
+    <Layout
+      title="Case Study: Running Serious Agricultural Deals"
+      desc="A practical look at how suppliers, buyers, and logistics partners use QSource Network to run structured, traceable agricultural trade deals across Africa."
+    >
       <Navbar classOption="navbar-light" />
-      <PageHeader title="Why customer retention is the ultimate growth strategy" />
+      <PageHeader
+        title="How Serious Agricultural Deals Actually Run on QSource Network"
+      />
       <BlogSingleFeature />
       <NewsLetter />
       <LatestBlog />

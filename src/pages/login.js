@@ -6,7 +6,10 @@ import Layout from '@layout/Layout';
 
 const Login = () => {
   return (
-    <Layout title="Login" desc="This is login page">
+    <Layout
+      title="Login"
+      desc="Sign in to your QSource Network account to manage trade profiles, connections, and deals."
+    >
       <section
         className="sign-up-in-section bg-dark ptb-60"
         style={{
@@ -28,10 +31,9 @@ const Login = () => {
                 </a>
               </Link>
               <div className="register-wrap p-5 bg-light shadow rounded-custom">
-                <h1 className="h3">Nice to Seeing You Again</h1>
+                <h1 className="h3">Welcome back to QSource Network</h1>
                 <p className="text-muted">
-                  Please log in to access your account web-enabled methods of
-                  innovative niches.
+                  Sign in to access your trade profile, manage deals in the pipeline, and work with verified partners across Africa.
                 </p>
 
                 <div className="action-btns">
@@ -45,7 +47,7 @@ const Login = () => {
                       src="/google-icon.svg"
                       alt="google"
                     />
-                    <span className="mx-2">Connect with Google</span>
+                    <span className="mx-2">Continue with Google</span>
                   </a>
                 </div>
                 <div className="position-relative d-flex align-items-center justify-content-center mt-4 py-4">

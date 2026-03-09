@@ -9,7 +9,10 @@ import { registerTestimonial, registerTestimonialTarget } from '@utils/data';
 
 const Register = () => {
   return (
-    <Layout title="Sign Up" desc="This is sign up page">
+    <Layout
+      title="Sign Up"
+      desc="Create your QSource Network account to join a verified agricultural trade network across Africa."
+    >
       <section
         className="sign-up-in-section bg-dark ptb-60"
         style={{
@@ -156,10 +159,9 @@ const Register = () => {
                       className="img-fluid"
                     />
                   </a>
-                  <h1 className="h3">Create an Account</h1>
+                  <h1 className="h3">Create your QSource Network Account</h1>
                   <p className="text-muted">
-                    Get started with your free account today. No credit card
-                    needed and no setup fees.
+                    Join a verified network of agricultural suppliers, buyers, and service providers across Africa. Start with a free account and upgrade later when your trade volumes grow.
                   </p>
 
                   <form action="#" className="mt-5 register-form">

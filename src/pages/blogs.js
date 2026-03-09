@@ -8,11 +8,14 @@ import PageHeader from '@components/common/PageHeader';
 
 const Blogs = () => {
   return (
-    <Layout title="Blog" desc="This is blog page">
+    <Layout
+      title="Insights & Updates"
+      desc="QSource Network by Qivook — insights on African agricultural trade, market intelligence, and building serious cross-border deal pipelines."
+    >
       <Navbar />
       <PageHeader
-        title="Our Latest News and Blogs"
-        desc="Completely integrate equity invested partnerships without revolutionary systems. Monotonectally network pandemic e-services via bricks-and-clicks information."
+        title="QSource Network Insights"
+        desc="Articles and updates on African agricultural markets, verified trade networks, logistics, and how to run serious cross-border deals with QSource Network."
         blogtags
       />
       <BlogFeature />

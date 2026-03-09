@@ -9,7 +9,10 @@ import HelpCenterHeader from '@components/help-center/HelpCenterHeader';
 
 const HelpCenter = () => {
   return (
-    <Layout title="Help Center" desc="This is help center page">
+    <Layout
+      title="Help Center"
+      desc="Find answers to common questions about using QSource Network by Qivook to run serious, structured agricultural trade deals across Africa."
+    >
       <Navbar />
       <HelpCenterHeader />
       <HelpCenterDetails />

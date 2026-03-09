@@ -12,11 +12,9 @@ const HelpCenterHeader = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-12">
             <div className="text-center">
-              <h1 className="display-5 fw-bold">Support</h1>
+              <h1 className="display-5 fw-bold">QSource Network Help Center</h1>
               <p className="lead">
-                Seamlessly actualize client-based users after out-of-the-box
-                value. Globally embrace strategic high-quality platforms before
-                frictionless expertise.
+                Get practical help on profiles, verification, documents, and the deal pipeline so you can run serious agricultural trade on QSource Network with confidence.
               </p>
 
               <div className="form-block-banner mw-60 m-auto mt-5">
