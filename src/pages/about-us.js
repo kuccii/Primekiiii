@@ -5,6 +5,7 @@ import Footer from "@layout/Footer/Footer";
 import OurTeam from "@components/our-team/OurTeam";
 import OurStory from "@components/our-story/OurStory";
 import OurOffice from "@components/our-office/OurOffice";
+import WorkProcessOne from "@components/workprocess/WorkProcessOne";
 import SupportOne from "@components/support/SupportOne";
 import HeroSectionTwo from "@components/hero-section/HeroSectionTwo";
 import TestimonialTwo from "@components/testimonial/TestimonialTwo";
