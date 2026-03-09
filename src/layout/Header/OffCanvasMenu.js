@@ -62,6 +62,16 @@ const OffCanvasMenu = () => {
             <a className="nav-link">Services</a>
           </Link>
         </li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close">
+          <Link href="/blogs">
+            <a className="nav-link">Insights</a>
+          </Link>
+        </li>
+        <li data-bs-dismiss="offcanvas" aria-label="Close">
+          <Link href="/help-center">
+            <a className="nav-link">Help Center</a>
+          </Link>
+        </li>
         {/* Pricing is managed inside the QSource app, so we don’t expose a separate pricing page here */}
         {/* <li data-bs-dismiss="offcanvas" aria-label="Close">
           <Link href="#">

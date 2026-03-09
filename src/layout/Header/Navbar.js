@@ -182,6 +182,16 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a className="nav-link">Services</a>
                 </Link>
               </li>
+              <li>
+                <Link href="blogs">
+                   <a className="nav-link">Insights</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="help-center">
+                  <a className="nav-link">Help Center</a>
+                </Link>
+              </li>
 
               {/* Pricing is handled inside the QSource app, so we keep it out of the main navigation */}
               {/* <li className="nav-item dropdown">
